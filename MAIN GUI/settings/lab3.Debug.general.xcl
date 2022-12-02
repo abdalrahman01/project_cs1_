@@ -1,0 +1,17 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armJLINK.dll" 
+
+"C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Exe\lab3.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/Microchip/SAM3XA.dmac" 
+
+--macro="C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\LAB3 complete\MAIN\startup_files\arduino_due_x_sram.mac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/Microchip/sam3x8/sam3x8-flash.board" 
+
+
+
+

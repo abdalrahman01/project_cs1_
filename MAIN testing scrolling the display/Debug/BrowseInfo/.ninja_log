@@ -1,0 +1,181 @@
+# ninja log v5
+20	222	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/system_sam3x.xcl	99e54d0d948eca0c
+106	195	6913278430944579	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad_display/lcd_commands.pbi	20c3f8d4697cd986
+300	392	6914350325158752	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lab3.pbd	abcd28eeeba8f8e0
+246	391	6914356502498813	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/servo/servo.pbi	12ec1e33f77e93de
+208	266	6914350323899037	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lab3_part3.pbi	4f5ec7c502bf8b04
+191	271	6912590168115580	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_files/startup_sam3x.pbi	3c7ccb90f245d82b
+0	130	6912447010000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/main.xcl	e7242f43e9998a75
+175	195	6912590167350558	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_files/exceptions.pbi	e6f8120328076698
+96	206	6914350323294655	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/main.pbi	24c997a131b8ad25
+396	1387	6914350334957918	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lab3.pbw	969fcd0806fa6daa
+18	202	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/GPIO_config.xcl	e69d369ca15f9465
+1	226	6914377608364586	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/light_sensor/light_sensor.pbi	5bc9e8ac08594de5
+24	204	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/startup_files/exceptions.xcl	33fcda148bb39766
+25	216	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/LCD.xcl	527e0f9ecefa7f99
+23	228	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_sam3x.xcl	af97d9f93a004a05
+1	87	6914376691020735	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+16	234	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/exceptions.xcl	4e62a3b441684ffb
+2	20	6912489905649852	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lcd_commands.pbi	45c7813f8de9d898
+0	240	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad.xcl	d2527328892c4c25
+128	341	6913278432529707	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/GPIO_config.pbi	821f04b57a51a860
+13	184	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/temp_sensor/temp_sensor.xcl	854366d164916e81
+90	160	6914376691750631	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+22	250	6912482090000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lcd_commands.xcl	41c194893bb7f8c9
+1	61	6912490171583018	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/LCD.pbi	5004ff91c15fd7de
+238	269	6912482094697075	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/exceptions.pbi	b210614675742130
+3	59	6912485409478532	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad.pbi	713f3dee8cb8d43a
+177	262	6914350323868905	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lab3_part0.pbi	eb51dc466bf196f5
+294	1141	6914376701297492	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+198	269	6914350323929992	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lab3_part1.pbi	2a63b6870a9b2697
+2	83	6912484378118696	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_sam3x.pbi	1b2d80539f6dd541
+226	324	6912482095252164	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/system_sam3x.pbi	f6b76b836e90629d
+1	221	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/keypad_display/keypad.xcl	5ddcc063680396ad
+203	297	6914350324207849	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/lab3_part2.pbi	77bddf093759aa77
+4	147	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad_display/lcd_commands.xcl	5609cc7a105f10a9
+91	173	6914350322944427	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad_display/keypad.pbi	e35964d2f41b8fc2
+2	156	6914370644385284	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/keypad_display/keypad.pbi	75a12e701e478d5d
+1	156	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad_display/keypad.xcl	77d196fc3d822502
+63	169	6914350322934428	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad_display/LCD.pbi	4ad174dc64a0b0b8
+89	193	6914350323140048	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/servo/servo.pbi	8ace8c8a518db464
+7	160	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/keypad_display/LCD.xcl	4393d7c2272b4289
+229	314	6914377609256047	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part1.pbi	6e6aed6f11004ac7
+39	166	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/temp_sensor/temp_sensor.xcl	e89a0bb8ae4d51af
+10	171	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_files/exceptions.xcl	a5c91b489a375578
+43	112	6914371305646682	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part0.pbi	97dc423dea4a377c
+1	40	6914371304933817	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/keypad_display/lcd_commands.pbi	81e817a26b1a39c0
+25	176	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_files/system_sam3x.xcl	c958b39d8fcb0fa6
+27	187	6912590160000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_files/startup_sam3x.xcl	a44994bbf67c4e4c
+93	200	6914350323240765	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/temp_sensor/temp_sensor.pbi	afe913c676dde35d
+7	191	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/keypad_display/LCD.xcl	b04c2114a09bf7dc
+12	101	6912624428124406	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/startup_files/system_sam3x.pbi	d93e1a152525562a
+210	265	6914356501114414	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/startup_files/exceptions.pbi	2d6e5c425cf9d8a5
+1	72	6912622000000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/light_sensor/light_sensor.xcl	75f5726bd66cf163
+319	466	6914377610762421	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+87	196	6914350323184247	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/light_sensor/light_sensor.pbi	b34ebaddd655e6b7
+9	160	6914370644385284	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/keypad_display/LCD.pbi	8db95b0aca8c2261
+53	453	6913278430000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/BrowseInfo/servo/servo.xcl	adea89629c4837
+9	198	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/keypad_display/lcd_commands.xcl	8c987f97fa8d8519
+30	212	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/startup_files/startup_sam3x.xcl	86864ca51bbef429
+12	194	6914370644748123	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/startup_files/system_sam3x.pbi	5b12bb8905b8d019
+26	230	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/light_sensor/light_sensor.xcl	3dcd9c51691435a9
+19	240	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/servo/servo.xcl	cd02da9746beca55
+33	249	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/GPIO_config.xcl	8a4e7d4a8025caf8
+15	280	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/startup_files/system_sam3x.xcl	5079968f0b52d297
+217	394	6914356502488429	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/temp_sensor/temp_sensor.pbi	f8ae4dedecd43c62
+187	303	6914356500000000	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.xcl	3210fc70819ab992
+254	401	6914356502607277	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/GPIO_config.pbi	966032cd1e8660
+262	404	6914356502632681	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/startup_files/startup_sam3x.pbi	1852befdd4d4fc65
+197	338	6914370646224084	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part2.pbi	a0b2ff9648eef456
+1	105	6914377664440211	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/light_sensor/light_sensor.pbi	5bc9e8ac08594de5
+4	110	6914377664495467	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+107	191	6914377665311712	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part1.pbi	6e6aed6f11004ac7
+113	196	6914377665337079	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+199	331	6914377666713243	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+334	1187	6914377674996654	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+2	88	6914377977418323	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+90	160	6914377978145932	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+162	289	6914377979434543	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+293	1123	6914377987522903	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	90	6914378089234761	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+92	162	6914378089952526	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+164	289	6914378091225155	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+292	1133	6914378099418880	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	90	6914378150933341	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+92	162	6914378151660226	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+164	290	6914378152944855	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+293	1205	6914378161697633	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	201	6914379671338502	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+203	274	6914379672053531	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+278	408	6914379673410334	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+413	1252	6914379681595602	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	194	6914379734291971	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+196	266	6914379735010918	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+268	395	6914379736304215	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+399	1218	6914379744281566	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	94	6914379946671742	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+97	168	6914379947409812	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+172	304	6914379948770306	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+309	1114	6914379956635036	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	92	6914380008300398	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+95	163	6914380009021293	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+166	299	6914380010378027	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+303	1131	6914380018436033	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+2	95	6914380371600317	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+97	168	6914380372339852	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+173	298	6914380373641038	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+303	1095	6914380381377396	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	203	6914380434192010	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+205	275	6914380434918869	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+278	405	6914380436201588	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+410	1248	6914380444413003	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	214	6914380497307088	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+217	292	6914380498080859	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+295	428	6914380499447332	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+433	1293	6914380507818971	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	99	6914380559630458	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+102	175	6914380560386459	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+178	301	6914380561656073	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+305	1125	6914380569613236	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	116	6914380672019735	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+120	210	6914380672956028	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+214	393	6914380674797228	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+400	1339	6914380683932629	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+2	110	6914380735849604	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+113	203	6914380736753762	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+207	358	6914380738315848	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+362	1298	6914380747446515	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+2	114	6914380799323797	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+117	192	6914380800116264	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+194	333	6914380801526157	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+3	115	6914380860373975	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+118	208	6914380861290933	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+211	367	6914380862911078	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+370	1338	6914380872200989	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	93	6914380923949290	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+95	170	6914380924731887	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+172	313	6914380926155153	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+316	1198	6914380934693383	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	102	6914382191046870	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+105	185	6914382191869892	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+188	330	6914382193326843	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+334	1236	6914382202087684	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+3	108	6914382253866150	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+110	189	6914382254675878	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+192	334	6914382256130030	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+337	1294	6914382265387117	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+2	206	6914382920543448	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+209	290	6914382921374137	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+293	435	6914382922826961	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+439	1338	6914382931541727	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	216	6914382984439650	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+218	292	6914382985212151	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+295	450	6914382986779246	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+454	1346	6914382995417102	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	94	6914383147516365	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+97	176	6914383148329840	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+178	315	6914383149725796	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+318	1185	6914383158143885	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	96	6914383259990778	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+98	186	6914383260894356	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+189	330	6914383262343046	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+334	1208	6914383270835316	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	97	6914383322516983	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+101	177	6914383323324925	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+180	313	6914383324678937	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+318	1209	6914383333362186	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+2	126	6914383485731728	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+129	218	6914383486684293	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+221	405	6914383488532976	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+1	111	6914383542364028	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+113	200	6914383543261171	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+203	351	6914383544771559	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+355	1291	6914383553824078	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	203	6914383606603617	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+205	289	6914383607474834	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+293	435	6914383608922021	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+438	1326	6914383617563415	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca
+1	104	6914383669320135	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/main.pbi	6233bab6d22d9e7a
+107	182	6914383670115835	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3_part3.pbi	d072c7262e0d9d2b
+186	326	6914383671536592	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbd	511ca7fe4cb5758d
+331	1200	6914383679994903	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/BrowseInfo/lab3.pbw	58960bcadd733dca

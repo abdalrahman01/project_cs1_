@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "lcd_commands.h": "c",
+        "gpio_config.h": "c",
+        "commands_data_lcd.h": "c",
+        "keypad.h": "c"
+    }
+}

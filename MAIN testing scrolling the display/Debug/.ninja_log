@@ -1,0 +1,87 @@
+# ninja log v5
+7	91	6912583448330139	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/startup_files/startup_sam3x.o	b8860b0be4c814db
+1	57	6912582322813176	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/exceptions.o	5d7cd64dbe3f9077
+8	204	6912581534102065	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/keypad.o	faacb80f9c1876fd
+5	94	6912583448350082	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/startup_files/system_sam3x.o	a678ec931b2f4703
+17	135	6912582323511302	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/system_sam3x.o	167064bd2a7a5e68
+25	121	6912582323441120	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/startup_sam3x.o	5e692e8ff60a4467
+3	316	6914369576837643	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/keypad_display/keypad.o	d091c53bc6f307fb
+11	277	6913294501357903	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/main.o	185a41ee6e96304f
+4	158	6912581533702806	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/LCD.o	720760d1bdd1493b
+1	127	6912581533378388	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/lcd_commands.o	c9688d994eb27bf
+1	91	6912489096881544	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/GPIO_config.o	4a81e7919fe83620
+258	346	6913329236123507	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Exe/lab3.out	78b58ee4160b39e3
+7	196	6913072335132327	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/keypad_display/lcd_commands.o	e98d9a69905f3a5a
+2	233	6913072335533250	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/keypad_display/LCD.o	2d4827e037647e34
+2	249	6913329234975244	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/light_sensor/light_sensor.o	3436acd012d1e74f
+9	97	6912582323214495	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/keypad_display/keypad.o	61385c1761321580
+17	408	6914369577831719	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/startup_files/system_sam3x.o	30a9d3726581b20e
+1	46	6912583447896519	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/startup_files/exceptions.o	b43882f5530e41cc
+6	257	6913034664435114	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/temp_sensor/temp_sensor.o	ddfda76877492fe9
+2	137	6913076877800710	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/LAB3 complete/MAIN/Debug/Obj/servo/servo.o	85bb8ec6a61bf9ae
+6	299	6914369576747234	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/keypad_display/LCD.o	6a964bd561a8e27c
+8	238	6914369576268694	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/keypad_display/lcd_commands.o	c81f9f00c97e788b
+24	363	6914369577272493	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/servo/servo.o	2ca2739cb0229edb
+31	380	6914369577646343	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/startup_files/exceptions.o	a81dabc57ceed31e
+10	385	6914369577646343	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/light_sensor/light_sensor.o	33c6137b751e10bf
+245	402	6914369577852658	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+13	437	6914369578065850	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/startup_files/startup_sam3x.o	56d3f36eafea212a
+21	498	6914369578639124	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/GPIO_config.o	aa42c486e856a69f
+28	516	6914369578791431	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/temp_sensor/temp_sensor.o	cf6333d3048b96c8
+520	800	6914369581903279	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	112	6914370634992988	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+116	171	6914370635610263	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	116	6914371512206896	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+120	182	6914371512901997	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	203	6914374565849628	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+210	251	6914374566647824	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	91	6914375958114430	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+94	132	6914375958546818	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	116	6914376579021375	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+120	168	6914376579621330	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	222	6914377645759158	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/light_sensor/light_sensor.o	33c6137b751e10bf
+228	283	6914377646650287	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	206	6914380810972442	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+209	257	6914380811723595	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	122	6914383521789190	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+127	190	6914383522541070	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	199	6914384313122145	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+202	246	6914384313739844	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	101	6914386811995722	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+108	167	6914386812714831	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	126	6914387164947946	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+130	193	6914387165709684	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	202	6914388267934337	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+207	254	6914388268479193	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	122	6914389048347388	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+128	180	6914389049030716	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	117	6914389450777780	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+121	192	6914389451570865	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	114	6914390098713729	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+118	170	6914390099372368	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	116	6914390724931883	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+120	167	6914390725468622	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	176	6914391526116284	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+180	227	6914391526799058	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	102	6914392249571300	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+107	157	6914392250172856	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	111	6914392726427257	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+114	165	6914392726992650	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	97	6914393124020514	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+100	142	6914393124496157	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	143	6914394885795654	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+147	187	6914394886257703	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	109	6914396615202420	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+113	158	6914396615749259	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	109	6914397200837266	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+113	169	6914397201531368	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	183	6914398107687893	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+187	237	6914398108446968	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	172	6914401757902785	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+176	225	6914401758628101	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	104	6914402192150594	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+108	160	6914402192733858	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+1	102	6914403201165095	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+105	155	6914403201749521	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf
+2	185	6914404764108867	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Obj/main.o	e377c3b28c205df2
+187	233	6914404764785105	C:/Users/abdal/OneDrive - Högskolan i Halmstad/School/year 2/ht/period 2/CS1/Project/MAIN/Debug/Exe/lab3.out	df437a7fedf85ecf

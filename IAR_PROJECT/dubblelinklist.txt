@@ -1,0 +1,16 @@
+
+Node [
+    struct *time
+    struct *date
+    char temprature
+    struct * next_node
+    struct * previus_node
+]
+
+methods:
+createNode(struct *time, struct *date, char temp)
+add(struct Node **first, struct Node *newNode): void
+remove_from_tale(struct Node **first): int 
+get_max(struct Node *first): struct Node *first ret
+get_min(struct Node *first): struct Node *first
+get_avrage(struct Node *first): int  

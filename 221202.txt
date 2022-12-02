@@ -1,0 +1,113 @@
+0:		edit. 
+(1) temp low 
+(2) temp high 
+(3) date 
+(4) time
+
+5:lower limit: xx             (14,5)
+. upper limit: xx             (14,6)
+. date: dd/mm/yy              (7,6)
+. time: hh:mm:ss			(8,6)
+14: 
+
+
+
+15:*: go home #: Current day. 
+ 
+
+-----------------------------------------------------
+if clicked (1): set mode MODE_TEMP_LOW_EDIT: 
+if clicked (2): set mode MODE_TEMP_HIGH_EDIT: 
+if clicked (3): set mode MODE_DATE_EDIT:
+	dd/mm/yy
+	date = 0; 
+	for i:0:8:
+		jumb over '/'. 
+		listen clicked released
+		xd/mm/yy 
+		add value to date. 
+
+if clicked (4): set mode MODE_TIME_EDIT:
+	time = 0; 
+	hh:mm:ss
+	for i:0:8:
+		jumb over ':'. 
+		listen clicked released
+		hh:mm:ss 
+		add value to time.
+-----------------------------------------------------
+void temp_low_edit(){
+	
+	if ( MODE != MODE_TEMP_LOW_EDIT)
+		return;
+
+	int key = clicked_released(); 
+	short temprature = 0; 
+
+	set_cursor_pointer(14,5); 
+	set_address_pointer(local_address,14, 5); 
+	
+	print_char(key + '0')  // 1 + '0' = '1'
+ 	temprature += key;  
+
+	key = clicked_released();
+	set_cursor_pointer(13,5); 
+	set_address_pointer(local_address,13, 5); 
+
+	print_char(key + '0')  // 1 + '0' = '1'
+ 	temprature += key * 10 ; 
+
+	MODE = MODE_PAGE_3_OPTIONS_VIEW;
+
+} 
+__________________________________________________________
+void temp_high_edit(){
+	
+	if ( MODE != MODE_TEMP_HIGH_EDIT)
+		return;
+
+	int key = clicked_released(); 
+    	exit_back(key);
+
+	short temprature = 0; 
+
+	set_cursor_pointer(14,6); 
+	set_address_pointer(local_address,14, 6); 
+	
+	print_char(key + '0')  // 1 + '0' = '1'
+ 	temprature += key;  
+
+	key = clicked_released();
+	exit_back(key);
+
+	set_cursor_pointer(13,6); 
+	set_address_pointer(local_address,13, 6); 
+
+	print_char(key + '0')  // 1 + '0' = '1'
+ 	temprature += key * 10 ; 
+
+	MODE = MODE_PAGE_3_OPTIONS_VIEW;
+
+}
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
