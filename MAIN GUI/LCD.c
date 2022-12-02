@@ -174,10 +174,10 @@ void init_display(void)
     write_command_2_display(TEXT_ON_GRAPHIC_OFF | 0x93); // text on graphic off |curson on blink on
 
 
-    run_command_op2(0x21, 0,2);
+//    run_command_op2(0x21, 0,2);
     // write_command_2_display(0x21); // set cursor pointer
 //    run_command_op2(0x60, 1,1); // cursor auto moving Enabled
-    write_command_2_display(0xa0);
+    write_command_2_display(0xa7);
 
     
     run_command_op2(SET_ADDRESS_POINTER, 0x00, 0x00); // Set Address pointer

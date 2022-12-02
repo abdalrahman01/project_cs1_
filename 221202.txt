@@ -4,10 +4,10 @@
 (3) date 
 (4) time
 
-5:lower limit: xx             (14,5)
-. upper limit: xx             (14,6)
-. date: dd/mm/yy              (7,6)
-. time: hh:mm:ss			(8,6)
+5:lower limit: xx             (13,5)
+. upper limit: xx             (13,6)
+. date: dd/mm/yy              (6,7)
+. time: hh:mm:ss			(6,8)
 14: 
 
 

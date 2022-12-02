@@ -5,72 +5,71 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\GUI.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\GUI_views.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\AppData\Local\IAR Embedded Workbench\CodeTemplates.ENU.txt</file>
-            <file>$PROJ_DIR$\GUI\GUI_controls.h</file>
-            <file>$PROJ_DIR$\GUI\GUI_controls.c</file>
-            <file>$PROJ_DIR$\GUI\GUI.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\GUI_controls.o</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\lab3.out</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_files\startup_sam3x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
             <file>$PROJ_DIR$\startup_files\core_cmFunc.h</file>
-            <file>$TOOLKIT_DIR$\config\linker\Microchip\sam3x8\sram.icf</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\keypad_display\keypad.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\light_sensor\light_sensor.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_files\startup_sam3x.o</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_files\system_sam3x.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\startup_files\system_sam3x.h</file>
-            <file>$PROJ_DIR$\startup_files\exceptions.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\temp_sensor\temp_sensor.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\List\lab3.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\light_sensor\light_sensor.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\keypad_display\keypad.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\GUI_views.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GUI.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\Microchip\sam3x8\sram.icf</file>
             <file>$PROJ_DIR$\startup_files\core_cm3.h</file>
             <file>$PROJ_DIR$\startup_files\core_cmInstr.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\lab3.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_files\exceptions.o</file>
             <file>$PROJ_DIR$\Debug\Obj\keypad_display\LCD.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\startup_files\exceptions.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GUI_controls.o</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\GPIO_config.c</file>
-            <file>$PROJ_DIR$\LCD.c</file>
-            <file>$PROJ_DIR$\lcd_commands.c</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\GPIO_config.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\servo\servo.o</file>
             <file>$PROJ_DIR$\Debug\Obj\GPIO_config.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\keypad_display\lcd_commands.o</file>
-            <file>$PROJ_DIR$\startup_files\at91sam3x8.h</file>
-            <file>$PROJ_DIR$\keypad.c</file>
-            <file>$PROJ_DIR$\light_sensor.h</file>
-            <file>$PROJ_DIR$\lcd_keypad_buss.h</file>
-            <file>$PROJ_DIR$\startup_files\system_sam3x.c</file>
-            <file>$PROJ_DIR$\keypad.h</file>
-            <file>$PROJ_DIR$\lcd_commands.h</file>
-            <file>$PROJ_DIR$\temp_sensor.h</file>
-            <file>$PROJ_DIR$\light_sensor.c</file>
-            <file>$PROJ_DIR$\servo.c</file>
-            <file>$PROJ_DIR$\startup_files\exceptions.c</file>
-            <file>$PROJ_DIR$\servo.h</file>
-            <file>$PROJ_DIR$\temp_sensor.c</file>
-            <file>$PROJ_DIR$\commands_data_lcd.h</file>
-            <file>$PROJ_DIR$\startup_files\startup_sam3x.c</file>
-            <file>$PROJ_DIR$\LCD.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\List\lab3.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\servo\servo.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_files\exceptions.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\keypad_display\lcd_commands.o</file>
+            <file>$PROJ_DIR$\startup_files\system_sam3x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\temp_sensor\temp_sensor.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\lcd_commands.h</file>
             <file>$PROJ_DIR$\GUI\GUI_views.h</file>
+            <file>$PROJ_DIR$\lcd_commands.c</file>
+            <file>$PROJ_DIR$\lcd_keypad_buss.h</file>
+            <file>$PROJ_DIR$\LCD.c</file>
+            <file>$PROJ_DIR$\keypad.h</file>
+            <file>$PROJ_DIR$\LCD.h</file>
+            <file>$PROJ_DIR$\keypad.c</file>
+            <file>$PROJ_DIR$\startup_files\system_sam3x.c</file>
+            <file>$PROJ_DIR$\startup_files\exceptions.c</file>
+            <file>$PROJ_DIR$\temp_sensor.c</file>
+            <file>$PROJ_DIR$\temp_sensor.h</file>
+            <file>$PROJ_DIR$\commands_data_lcd.h</file>
+            <file>$PROJ_DIR$\GPIO_config.c</file>
             <file>$PROJ_DIR$\GUI\GUI.c</file>
-            <file>$PROJ_DIR$\GUI\GUI_views.c</file>
+            <file>$PROJ_DIR$\GUI\GUI.h</file>
+            <file>$PROJ_DIR$\servo.h</file>
+            <file>$PROJ_DIR$\GPIO_config.h</file>
             <file>$PROJ_DIR$\GUI\GUI_constants.h</file>
+            <file>$PROJ_DIR$\GUI\GUI_controls.c</file>
+            <file>$PROJ_DIR$\GUI\GUI_controls.h</file>
+            <file>$PROJ_DIR$\GUI\GUI_views.c</file>
+            <file>$PROJ_DIR$\light_sensor.h</file>
+            <file>$PROJ_DIR$\light_sensor.c</file>
+            <file>$PROJ_DIR$\startup_files\at91sam3x8.h</file>
+            <file>$PROJ_DIR$\startup_files\startup_sam3x.c</file>
+            <file>$PROJ_DIR$\servo.c</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\GUI\GUI_controls.c</name>
+            <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -80,22 +79,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62 5 44</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\lab3.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 22</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 10 26 37 0 6 1 12 27 38 14 21 36 15 16 20 58 34 30 29</file>
+                    <file> 32 34 1 4 16 10 22 19 20 7 11 8 59 52 40 41 47 46 57 51 50</file>
                 </tool>
             </inputs>
         </file>
@@ -104,37 +88,22 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 25 22</file>
+                    <file> 2 28</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\GPIO_config.c</name>
+            <name>$PROJ_DIR$\Debug\Exe\lab3.out</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 37</file>
+                    <name>ILINK</name>
+                    <file> 28</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 18 56 28 7 11 57 17 23 24 8 13 9 39</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\LCD.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 27</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 35 39 45 44 52 42</file>
+                    <name>ILINK</name>
+                    <file> 18 30 26 17 24 15 14 21 31 13 6 29 5 12 33 27 3 9 25</file>
                 </tool>
             </inputs>
         </file>
@@ -143,123 +112,18 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38</file>
+                    <file> 31</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 54 52</file>
+                    <file> 41 47</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\keypad.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39 35 42</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\startup_files\system_sam3x.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 16</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39 18 56 28 7 11 57 17 23 24 8 13 9</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\light_sensor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39 18 56 28 7 11 57 17 23 24 8 13 9 54 52 45</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\servo.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 36</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39 18 56 28 7 11 57 17 23 24 8 13 9</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\startup_files\exceptions.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 26</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 19</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\temp_sensor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 20</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39 18 56 28 7 11 57 17 23 24 8 13 9 54 52 45</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\startup_files\startup_sam3x.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39 19 23 56 28 7 11 57 17 24 8 13 9</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
+            <name>$PROJ_DIR$\LCD.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -269,7 +133,82 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18 56 28 7 11 57 17 23 24 8 13 9 39 35 44 54 52 46 41 50 59 3 5</file>
+                    <file> 52 59 35 40 47 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\keypad.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 52 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_files\system_sam3x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 32 34 1 4 16 10 22 19 20 7 11 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_files\exceptions.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\temp_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 32 34 1 4 16 10 22 19 20 7 11 8 41 47 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GPIO_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 34 1 4 16 10 22 19 20 7 11 8 59</file>
                 </tool>
             </inputs>
         </file>
@@ -278,13 +217,28 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0</file>
+                    <file> 17</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 45 52 44 62 3</file>
+                    <file> 35 47 40 53 55 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GUI\GUI_controls.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53 50 40 35</file>
                 </tool>
             </inputs>
         </file>
@@ -293,13 +247,58 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62 5 45</file>
+                    <file> 53 50 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\light_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 32 34 1 4 16 10 22 19 20 7 11 8 41 47 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_files\startup_sam3x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 23 19 34 1 4 16 10 22 20 7 11 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\servo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 32 34 1 4 16 10 22 19 20 7 11 8</file>
                 </tool>
             </inputs>
         </file>

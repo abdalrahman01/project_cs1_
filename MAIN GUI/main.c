@@ -12,9 +12,10 @@
 
 #include "servo.h"
 
-#include "GUI/GUI_views.h"
-#include "GUI/GUI_controls.h"
+
 #include "GUI/GUI.h"    
+
+#include "calendar.h"
 
 void initializing_peripherals();
 void run_peripherals();
@@ -28,19 +29,18 @@ int main()
 {
   SystemInit();
   initializing_peripherals();
-  home_view();
-  page1_view();
-  page2_view();
-  page3_view();
-  SysTick_Config(SystemCoreClock / 1000);
 
+  SysTick_Config(SystemCoreClock / 1000);
+  
+  init_gui();
+  
   while (1)
   {
     
     key_listner(pressed_key());
     // run_peripherals();
   }
-  return 0;
+
 }
 
 void initializing_peripherals()
@@ -53,13 +53,13 @@ void initializing_peripherals()
   init_serv();
 }
 
-void run_peripherals()
-{
-  from_keypad_to_display();
-  run_temp_sensor(&systick_counter_temp);
-  read_values_light_sensors(&systick_counter_light);
-  update_position_servo(pressed_key(), &systick_counter_servo);
-}
+//void run_peripherals()
+//{
+//  from_keypad_to_display();
+//  run_temp_sensor(&systick_counter_temp);
+//  read_values_light_sensors(&systick_counter_light);
+//  update_position_servo(pressed_key(), &systick_counter_servo);
+//}
 
 void SysTick_Handler()
 {
@@ -67,4 +67,6 @@ void SysTick_Handler()
   systick_counter_temp++;
   systick_counter_light++;
   systick_counter_servo++;
+  MILLIESECONDS_COUNTER++;
+
 }

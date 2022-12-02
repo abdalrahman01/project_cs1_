@@ -1,11 +1,10 @@
 #include "GUI_constants.h"
 #include "GUI.h"
 #include "../keypad.h"
-
-
+#include "../lcd_commands.h"
 
 void exit_back(int key);
-
+void go_home();
 void controll_home_page()
 {
 
@@ -85,16 +84,16 @@ void controll_page_3_options()
     int key = button_released();
     switch (key)
     {
-    case 1: 
+    case 1:
         MODE = MODE_TEMP_LOW_EDIT;
         break;
-    case 2: 
+    case 2:
         MODE = MODE_TEMP_HIGH_EDIT;
         break;
-    case 3: 
+    case 3:
         MODE = MODE_DATE_EDIT;
         break;
-    case 4: 
+    case 4:
         MODE = MODE_CLOCK_EDIT;
         break;
     case 10:
@@ -111,67 +110,72 @@ void controll_page_3_options()
     }
 }
 
-void temp_low_edit()
+void edit_temprature_lower()
 {
 
     if (MODE != MODE_TEMP_LOW_EDIT)
         return;
     short local_address = PAGE_3_ADDRESS;
 
-    int key = clicked_released();
+    set_curser_pointer(15, 7);
+    int key = button_released();
     exit_back(key);
     short temprature = 0;
 
-    set_cursor_pointer(14, 5);
-    set_address_pointer(local_address, 14, 5);
+    set_address_pointer(local_address, 15, 7);
 
     print_char(key + '0'); // 1 + '0' = '1'
-    temprature += key; 
+    temprature += key;
 
-    key = clicked_released();
+    set_curser_pointer(14, 7);
+    key = button_released();
     exit_back(key);
 
-    set_cursor_pointer(13, 5);
-    set_address_pointer(local_address, 13, 5);
+    set_address_pointer(local_address, 14, 7);
 
     print_char(key + '0'); // 1 + '0' = '1'
-    temprature += key * 10; 
+    temprature += key * 10;
 
     MODE = MODE_PAGE_3_OPTIONS_VIEW;
 }
-void temp_high_edit(){
-	
-	if ( MODE != MODE_TEMP_HIGH_EDIT)
-		return;
+void edit_temprature_higher()
+{
+
+    if (MODE != MODE_TEMP_HIGH_EDIT)
+        return;
     short local_address = PAGE_3_ADDRESS;
 
-	int key = clicked_released(); 
-    	exit_back(key);
 
-	short temprature = 0; 
+    set_curser_pointer(15, 8);
+    int key = button_released();
+    exit_back(key);
 
-	set_cursor_pointer(14,6); 
-	set_address_pointer(local_address,14, 6); 
-	
-	print_char(key + '0');  // 1 + '0' = '1'
- 	temprature += key;  
+    short temprature = 0;
 
-	key = clicked_released();
-	exit_back(key);
+    set_address_pointer(local_address, 15, 8);
 
-	set_cursor_pointer(13,6); 
-	set_address_pointer(local_address,13, 6); 
+    print_char(key + '0'); // 1 + '0' = '1'
+    temprature += key;
 
-	print_char(key + '0');  // 1 + '0' = '1'
- 	temprature += key * 10 ; 
+    set_curser_pointer(14, 8);
+    key = button_released();
+    exit_back(key);
 
-	MODE = MODE_PAGE_3_OPTIONS_VIEW;
+    set_address_pointer(local_address, 14, 8);
 
+    print_char(key + '0'); // 1 + '0' = '1'
+    temprature += key * 10;
+
+    MODE = MODE_PAGE_3_OPTIONS_VIEW;
 }
 void edit_date()
 {
     if (MODE != MODE_DATE_EDIT)
         return;
+
+    set_address_pointer(PAGE_3_ADDRESS, 0,13);
+    print_word("You Are Now Editing: date" ,26); 
+
     int key = 0;
     char date[8] = "00/00/00";
 
@@ -180,18 +184,20 @@ void edit_date()
         if (i == 2 || i == 5) // jumb over "/"
             continue;
 
-        set_curser_pointer(PAGE_2_ADDRESS, i, 4);
+        set_curser_pointer(i + 6, 9);
         key = button_released();
 
-        if (key == HOME_BUTTON)
-            go_home();
-        if (key == RETURN_BUTTON)
-            return;
+        exit_back(key);
 
-        set_address_pointer(PAGE_2_ADDRESS, i, 4);
+        set_address_pointer(PAGE_3_ADDRESS, i + 6, 9);
         date[i] = key + '0';
         print_char(key + '0');
     }
+    
+    MODE = MODE_PAGE_3_OPTIONS_VIEW;
+    set_address_pointer(PAGE_3_ADDRESS, 0,13);
+    print_word("                         " ,26); 
+
 }
 
 void edit_clock()
@@ -206,19 +212,17 @@ void edit_clock()
         if (i == 2 || i == 5) // jumb over ":"
             continue;
 
-        set_curser_pointer(PAGE_2_ADDRESS, i + 8, 4);
+        set_curser_pointer(i + 6, 10);
         key = button_released();
 
-        if (key == HOME_BUTTON)
-            go_home();
-        if (key == RETURN_BUTTON)
-            return;
-
-        set_address_pointer(PAGE_2_ADDRESS, i + 8, 4);
+        exit_back(key);
+        set_address_pointer(PAGE_3_ADDRESS, i + 6, 10);
         time[i] = key + '0';
         print_char(key + '0');
     }
+    MODE = MODE_PAGE_3_OPTIONS_VIEW;
 }
+
 void go_home()
 {
     set_text_home_address(HOME_PAGE_ADDRESS);
@@ -227,12 +231,15 @@ void go_home()
 
 void exit_back(int key)
 {
-    if (key == 10)
+    if (key == HOME_BUTTON)
     {
         go_home();
+        return;
     }
-    else if (key == 11)
+
+    if (key == RETURN_BUTTON)
     {
-        MODE == MODE_PAGE_3_OPTIONS_VIEW;
+        MODE = MODE_PAGE_3_OPTIONS_VIEW;
+        return;
     }
 }
