@@ -1,3 +1,4 @@
+#include "../calendar.h"
 #include "../lcd_commands.h"
 #include "../commands_data_lcd.h"
 #include "../keypad.h"
@@ -14,6 +15,9 @@ void init_gui(){
   page1_view();
   page2_view();
   page3_view();
+//   struct date date_now = ;
+
+  print_date(get_date(), PAGE_1_ADDRESS, 13,0);
 }
 
 void run_gui(){
@@ -25,7 +29,7 @@ void set_address_pointer(unsigned short address, char col, char row)
     // address: choose which diplay to use (HOME_PAGE_ADDRESS, PAGE_1_ADDRESS, etc ...)
 
     // if (col, row) is outside the col.
-    if (col > 30 || col < 0 || row < 0 || row > 16)
+    if (col > 30 || row > 16)
         return;
 
     address += (row * 30) + col;
@@ -36,7 +40,7 @@ void set_curser_pointer(char col, char row)
 {
 
     // if (col, row) is outside the col.
-    if (col > 30 || col < 0 || row < 0 || row > 16)
+    if (col > 30 || row > 16)
         return;
 
 

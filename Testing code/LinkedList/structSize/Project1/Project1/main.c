@@ -13,6 +13,7 @@ struct date {
 
 
 int main() {
-	printf("%d", sizeof(struct date));
+	char* a = "123";
+	printf("%d", a[2]);
 	return 0; 
 }

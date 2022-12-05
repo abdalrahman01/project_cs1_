@@ -1,4 +1,5 @@
 #include "GUI_constants.h"
+#include "GUI_data.h"
 #include "GUI.h"
 #include "../lcd_commands.h"
 
@@ -102,7 +103,7 @@ void page3_view(){
     set_address_pointer(local_address, 0,9);
     print_word("Date: dd/mm/yyyy",15);
     set_address_pointer(local_address, 0,10);
-    print_word("Time: ss:mm:hh",15);
+    print_word("Time: hh:mm:ss",15);
     
     set_address_pointer(local_address, 0,11);
     print_word("----------------",17);
