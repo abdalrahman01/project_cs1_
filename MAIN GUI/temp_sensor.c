@@ -4,7 +4,6 @@
 #include "commands_data_lcd.h"
 #include "lcd_commands.h"
 
-
 void delay(int value);
 void enable_NVIC_TC();
 void delay();
@@ -13,7 +12,7 @@ int read_TC_SR();
 int calc_temp(int a, int b);
 void start_puls(int d);
 void delay(int);
-char * int_to_char_array(int number);
+char *int_to_char_array(int number);
 void print_to_display(int temp);
 // pin2 : B 25
 #define PIN2 25
@@ -46,13 +45,8 @@ void init_temp_sensor()
     reset_puls();
     enable_NVIC_TC();
 
-
-    // run_command_op2(SET_ADDRESS_POINTER, 0,0); 
+    // run_command_op2(SET_ADDRESS_POINTER, 0,0);
     // print_word("Celsius: ", 9);
-   
-    
-    
-
 }
 
 void start_mesurement()
@@ -87,22 +81,36 @@ void run_temp_sensor(int *c)
             Global_Temp = calc_temp(*AT91C_TC0_RA, *AT91C_TC0_RB);
             print_to_display(Global_Temp);
             Global_Rising_Edge_Temp = 0;
-//            start_mesurement();
-            
+            //            start_mesurement();
         }
-    } else {
+    }
+    else
+    {
         *c = 0;
         reset_puls();
         start_mesurement();
-
     }
+}
 
+char is_measurment_ready()
+{
+    return Global_Rising_Edge_Temp;
+}
+double measurment()
+{
+    Global_Rising_Edge_Temp = 0;
+    return calc_temp(*AT91C_TC0_RA, *AT91C_TC0_RB);
+}
+void start_measuring()
+{
+    reset_puls();
+    start_mesurement();
 }
 
 int calc_temp(int a, int b)
 {
 
-    int temp = ((b - a) / (42*5))   - 273.15;
+    int temp = ((b - a) / (42 * 5)) - 273.15;
     return temp;
 }
 void reset_puls()
@@ -132,17 +140,14 @@ void enable_NVIC_TC()
     NVIC_EnableIRQ(TC0_IRQn);
 }
 
-
 int read_TC_SR()
 {
     return *AT91C_TC0_SR;
 }
 
+void print_to_display(int temp)
+{
 
-void print_to_display(int temp){
-    
     // plot(11, 0, temp%10 + 0x30);
     // plot(10, 0, temp/10 + 0x30);
-
 }
-

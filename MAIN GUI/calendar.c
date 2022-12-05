@@ -99,6 +99,9 @@ void update_counters()
     {
         DAYS_COUNTER++;
         HOURS_COUNTER = 0;
+        TICK |= (1<< 2); // set the dayss' flag
+    } else {
+        TICK &= ~(1 << 2); // clear the days' flag
     }
     if (DAYS_COUNTER >= 30)
     {
