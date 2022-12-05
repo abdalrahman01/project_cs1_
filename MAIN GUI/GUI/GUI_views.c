@@ -7,6 +7,7 @@ void command_window(short local_address);
 
 void home_view(){
     short local_address = HOME_PAGE_ADDRESS;
+    set_text_home_address(local_address);
 
     set_address_pointer(local_address, 13, 0);
     print_word("HELLO" ,5); 
@@ -28,8 +29,10 @@ void home_view(){
 
 void page1_view(){
     short local_address = PAGE_1_ADDRESS;
+    // set_text_home_address(local_address);
+
     set_address_pointer(local_address, 0,0);
-    print_word("Current Day: dd/mm/yy",22);
+    print_word("Current Day: dd/mm/yyyy",24);
     set_address_pointer(local_address, 0,1);
     print_word("Time: hh:mm:ss",15);
 
@@ -52,6 +55,7 @@ void page1_view(){
     
 void page2_view(){
     short local_address = PAGE_2_ADDRESS;
+    // set_text_home_address(local_address);
     
     
     
@@ -66,11 +70,15 @@ void page2_view(){
     }
     set_address_pointer(local_address, 0,15);
     print_word("*:Go Home #:Go Current Day" ,27);
+    set_text_home_address(local_address);
+
      
 }
 
 void page3_view(){
     short local_address = PAGE_3_ADDRESS;
+    // set_text_home_address(local_address);
+
 
     set_address_pointer(local_address, 0,0);
     print_word("Options/Edit",13);
@@ -93,12 +101,12 @@ void page3_view(){
     set_address_pointer(local_address, 0,8);
     print_word("Upper limit = xx",17);
     set_address_pointer(local_address, 0,9);
-    print_word("Date: dd/mm/yy",15);
+    print_word("Date: dd/mm/yyyy",15);
     set_address_pointer(local_address, 0,10);
     print_word("Time: ss:mm:hh",15);
     
     set_address_pointer(local_address, 0,11);
-    print_word("-----------------------------",30);
+    print_word("----------------",17);
 
 
 
