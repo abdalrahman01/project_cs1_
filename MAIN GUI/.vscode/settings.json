@@ -3,6 +3,9 @@
         "lcd_commands.h": "c",
         "gpio_config.h": "c",
         "commands_data_lcd.h": "c",
-        "keypad.h": "c"
+        "keypad.h": "c",
+        "calendar.h": "c",
+        "gui_views.h": "c",
+        "gui_data.h": "c"
     }
 }

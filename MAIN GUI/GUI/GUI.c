@@ -4,6 +4,7 @@
 #include "GUI_constants.h"
 #include "GUI_controls.h"
 #include "GUI_views.h"
+#include "GUI_data.h"
 
 
 extern char MODE = 0;
@@ -13,6 +14,10 @@ void init_gui(){
   page1_view();
   page2_view();
   page3_view();
+}
+
+void run_gui(){
+    date_current_day();
 }
 
 void set_address_pointer(unsigned short address, char col, char row)
@@ -51,13 +56,45 @@ void key_listner(int key)
 {
     if (key == 0)
         return;
-    controll_home_page();
-    controll_page_1_current_day();
-    controll_page_2_datatable();
-    controll_page_3_options();
-    edit_clock();
-    edit_date();
-    edit_temprature_higher();
-    edit_temprature_lower();
+
+    switch (MODE)
+    {
+    case MODE_HOME_PAGE_MENU_VIEW:
+        controll_home_page();
+        break;
+
+    case MODE_PAGE_1_GREENHOUSE_VIEW:
+        controll_page_1_current_day();
+        break;
+
+    case MODE_PAGE_2_DATATABLE_VIEW:
+        controll_page_2_datatable();
+        break;
+
+    case MODE_PAGE_3_OPTIONS_VIEW:
+        controll_page_3_options();
+        break;
+
+    case MODE_TEMP_LOW_EDIT:
+        edit_temprature_lower();
+        break;
+
+    case MODE_TEMP_HIGH_EDIT:
+        edit_temprature_higher();
+        break;
+
+    case MODE_DATE_EDIT:
+        edit_date();
+        break;
+
+    case MODE_CLOCK_EDIT:
+        edit_clock();
+        break;
+
+    
+    default:
+        break;
+    }
+ 
     
 }

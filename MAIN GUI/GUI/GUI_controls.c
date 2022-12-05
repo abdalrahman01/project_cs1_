@@ -3,6 +3,7 @@
 #include "../keypad.h"
 #include "../lcd_commands.h"
 
+
 void exit_back(int key);
 void go_home();
 void controll_home_page()
@@ -41,6 +42,7 @@ void controll_page_1_current_day()
     if (MODE != MODE_PAGE_1_GREENHOUSE_VIEW)
         return;
     int key = button_released();
+    
     switch (key)
     {
     case 10:
@@ -190,6 +192,7 @@ void edit_date()
         exit_back(key);
 
         set_address_pointer(PAGE_3_ADDRESS, i + 6, 9);
+        // check_key(*key);
         date[i] = key + '0';
         print_char(key + '0');
     }

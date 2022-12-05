@@ -5,5 +5,6 @@ void set_address_pointer(unsigned short address, char col, char row);
 extern char MODE;
 void key_listner(int key);
 void init_gui();
+void run_gui();
 
 #endif

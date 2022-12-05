@@ -7,7 +7,7 @@ void command_window(short local_address);
 
 void home_view(){
     short local_address = HOME_PAGE_ADDRESS;
-    set_text_home_address(local_address);
+    // set_text_home_address(local_address);
 
     set_address_pointer(local_address, 13, 0);
     print_word("HELLO" ,5); 
@@ -70,7 +70,6 @@ void page2_view(){
     }
     set_address_pointer(local_address, 0,15);
     print_word("*:Go Home #:Go Current Day" ,27);
-    set_text_home_address(local_address);
 
      
 }

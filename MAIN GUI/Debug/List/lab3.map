@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.30.1.335/W64 for ARM                  02/Dec/2022  15:25:08
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  05/Dec/2022  04:59:27
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -13,6 +13,8 @@
 #        -f "C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year
 #        2\ht\period 2\CS1\Project\MAIN GUI\Debug\Exe\lab3.out.rsp"
 #        ("C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year
+#        2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj\calender.o"
+#        "C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year
 #        2\ht\period 2\CS1\Project\MAIN
 #        GUI\Debug\Obj\startup_files\exceptions.o" "C:\Users\abdal\OneDrive -
 #        Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN
@@ -21,6 +23,8 @@
 #        GUI\Debug\Obj\GUI.o" "C:\Users\abdal\OneDrive - Högskolan i
 #        Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN
 #        GUI\Debug\Obj\GUI_controls.o" "C:\Users\abdal\OneDrive - Högskolan i
+#        Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN
+#        GUI\Debug\Obj\GUI_data.o" "C:\Users\abdal\OneDrive - Högskolan i
 #        Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN
 #        GUI\Debug\Obj\GUI_views.o" "C:\Users\abdal\OneDrive - Högskolan i
 #        Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN
@@ -91,87 +95,133 @@ initialize by copy with packing = none, complex ranges { rw };
     .intvec          const    0x2007'0000    0xf4  startup_sam3x.o [5]
                             - 0x2007'00f4    0xf4
 
-"P1-P2", part 1 of 2:                      0x145c
-  .text              ro code  0x2007'00f4   0x350  GUI_controls.o [1]
-  .text              ro code  0x2007'0444    0xc0  keypad.o [2]
-  .text              ro code  0x2007'0504    0xaa  GUI.o [1]
-  .text              ro code  0x2007'05ae    0x2a  copy_init3.o [9]
-  .text              ro code  0x2007'05d8    0x84  lcd_commands.o [2]
-  .text              ro code  0x2007'065c   0x1e4  GPIO_config.o [1]
-  .text              ro code  0x2007'0840   0x2e8  GUI_views.o [1]
-  .text              ro code  0x2007'0b28   0x214  LCD.o [2]
-  .text              ro code  0x2007'0d3c   0x128  temp_sensor.o [6]
-  .text              ro code  0x2007'0e64   0x114  light_sensor.o [3]
-  .text              ro code  0x2007'0f78    0xe4  main.o [1]
-  .text              ro code  0x2007'105c    0xa0  system_sam3x.o [5]
-  .text              ro code  0x2007'10fc    0x64  servo.o [4]
-  .text              ro code  0x2007'1160    0x30  startup_sam3x.o [5]
-  .text              ro code  0x2007'1190    0x1c  cstartup_M.o [9]
-  .text              ro code  0x2007'11ac    0x1e  cmain.o [9]
-  .text              ro code  0x2007'11ca     0x2  exceptions.o [5]
-  .text              ro code  0x2007'11cc    0x28  data_init.o [9]
-  .text              ro code  0x2007'11f4     0x4  exit.o [7]
-  .text              ro code  0x2007'11f8     0xa  cexit.o [9]
-  .text              ro code  0x2007'1204    0x14  exit.o [10]
-  .iar.init_table    const    0x2007'1218    0x14  - Linker created -
-  .rodata            const    0x2007'122c    0x20  GUI_views.o [1]
-  .rodata            const    0x2007'124c    0x20  GUI_views.o [1]
-  .rodata            const    0x2007'126c    0x20  GUI_views.o [1]
-  .rodata            const    0x2007'128c    0x20  GUI_views.o [1]
-  .rodata            const    0x2007'12ac    0x20  GUI_views.o [1]
-  .rodata            const    0x2007'12cc    0x1c  GUI_controls.o [1]
-  .rodata            const    0x2007'12e8    0x1c  GUI_controls.o [1]
-  .rodata            const    0x2007'1304    0x1c  GUI_views.o [1]
-  .rodata            const    0x2007'1320    0x1c  GUI_views.o [1]
-  .rodata            const    0x2007'133c    0x1c  GUI_views.o [1]
-  .rodata            const    0x2007'1358    0x18  GUI_views.o [1]
-  .rodata            const    0x2007'1370    0x18  GUI_views.o [1]
-  .rodata            const    0x2007'1388    0x18  GUI_views.o [1]
-  .rodata            const    0x2007'13a0    0x18  GUI_views.o [1]
-  .rodata            const    0x2007'13b8    0x14  GUI_views.o [1]
-  .rodata            const    0x2007'13cc    0x14  GUI_views.o [1]
-  .rodata            const    0x2007'13e0    0x14  GUI_views.o [1]
-  .rodata            const    0x2007'13f4    0x14  GUI_views.o [1]
-  .rodata            const    0x2007'1408    0x14  GUI_views.o [1]
-  .rodata            const    0x2007'141c    0x14  GUI_views.o [1]
-  .rodata            const    0x2007'1430    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'1440    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'1450    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'1460    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'1470    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'1480    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'1490    0x10  GUI_views.o [1]
-  .rodata            const    0x2007'14a0     0xc  GUI_views.o [1]
-  .rodata            const    0x2007'14ac     0xc  GUI_views.o [1]
-  .rodata            const    0x2007'14b8     0x8  GUI_controls.o [1]
-  .rodata            const    0x2007'14c0     0x8  GUI_controls.o [1]
-  .rodata            const    0x2007'14c8     0x8  GUI_views.o [1]
-  .rodata            const    0x2007'14d0     0x0  copy_init3.o [9]
-  P1-P2 s0                    0x2007'14d0    0x40  <Init block>
-    .data            inited   0x2007'14d0    0x10  keypad.o [2]
-    .data            inited   0x2007'14e0     0xc  keypad.o [2]
-    .data            inited   0x2007'14ec     0x4  system_sam3x.o [5]
-    .bss             inited   0x2007'14f0     0x4  light_sensor.o [3]
-    .bss             inited   0x2007'14f4     0x4  light_sensor.o [3]
-    .bss             inited   0x2007'14f8     0x4  main.o [1]
-    .bss             inited   0x2007'14fc     0x4  main.o [1]
-    .bss             inited   0x2007'1500     0x4  main.o [1]
-    .bss             inited   0x2007'1504     0x4  main.o [1]
-    .bss             inited   0x2007'1508     0x4  temp_sensor.o [6]
-    .bss             inited   0x2007'150c     0x1  GUI.o [1]
-  Initializer bytes  const    0x2007'1510    0x40  <for P1-P2 s0>
-                            - 0x2007'1550  0x145c
+"P1-P2", part 1 of 2:                      0x34c0
+  .text              ro code  0x2007'00f4   0xe8e  xprintffull_nomb.o [7]
+  .text              ro code  0x2007'0f82    0x2a  copy_init3.o [9]
+  .text              ro code  0x2007'0fac    0x16  strchr.o [9]
+  .text              ro code  0x2007'0fc2     0x2  exceptions.o [5]
+  .text              ro code  0x2007'0fc4    0x40  xfail_s.o [7]
+  .text              ro code  0x2007'1004    0x36  strlen.o [9]
+  .text              ro code  0x2007'103c    0x58  memchr.o [9]
+  .text              ro code  0x2007'1094    0x76  ABImemcpy_unaligned.o [9]
+  .text              ro code  0x2007'110c    0x70  frexp.o [8]
+  .text              ro code  0x2007'117c    0x34  DblCmpLe.o [8]
+  .text              ro code  0x2007'11b0    0x34  DblCmpGe.o [8]
+  .text              ro code  0x2007'11e4   0x13a  ldexp.o [8]
+  .text              ro code  0x2007'1320    0x36  DblToS32.o [8]
+  .text              ro code  0x2007'1358    0x22  S32ToDbl.o [8]
+  .text              ro code  0x2007'137c   0x24e  DblAddSub.o [8]
+  .text              ro code  0x2007'15cc   0x246  DblDiv.o [8]
+  .text              ro code  0x2007'1814    0x22  DblToU32.o [8]
+  .text              ro code  0x2007'1838    0x1c  U32ToDbl.o [8]
+  .text              ro code  0x2007'1854   0x1aa  DblMul.o [8]
+  .text              ro code  0x2007'1a00   0x230  I64DivMod.o [9]
+  .text              ro code  0x2007'1c30     0x6  abort.o [7]
+  .text              ro code  0x2007'1c38     0x2  I64DivZer.o [9]
+  .text              ro code  0x2007'1c3c    0x14  exit.o [10]
+  .text              ro code  0x2007'1c50    0x7c  iarttio.o [10]
+  .text              ro code  0x2007'1ccc     0x8  XShttio.o [7]
+  .text              ro code  0x2007'1cd4   0x350  GUI_controls.o [1]
+  .text              ro code  0x2007'2024    0xc0  keypad.o [2]
+  .text              ro code  0x2007'20e4    0xec  GUI.o [1]
+  .text              ro code  0x2007'21d0    0x84  lcd_commands.o [2]
+  .text              ro code  0x2007'2254   0x1e4  GPIO_config.o [1]
+  .text              ro code  0x2007'2438   0x2e8  GUI_views.o [1]
+  .text              ro code  0x2007'2720   0x1c6  GUI_data.o [1]
+  .text              ro code  0x2007'28e8   0x214  LCD.o [2]
+  .text              ro code  0x2007'2afc   0x14c  calender.o [1]
+  .text              ro code  0x2007'2c48    0x28  printf.o [7]
+  .text              ro code  0x2007'2c70   0x128  temp_sensor.o [6]
+  .text              ro code  0x2007'2d98   0x114  light_sensor.o [3]
+  .text              ro code  0x2007'2eac    0xfc  main.o [1]
+  .text              ro code  0x2007'2fa8    0xa0  system_sam3x.o [5]
+  .text              ro code  0x2007'3048    0x64  servo.o [4]
+  .text              ro code  0x2007'30ac    0x30  startup_sam3x.o [5]
+  .text              ro code  0x2007'30dc    0x1c  cstartup_M.o [9]
+  .text              ro code  0x2007'30f8    0x1e  cmain.o [9]
+  .text              ro code  0x2007'3118    0x28  data_init.o [9]
+  .text              ro code  0x2007'3140     0x4  exit.o [7]
+  .text              ro code  0x2007'3144     0xa  cexit.o [9]
+  .text              ro code  0x2007'314e    0x22  iarwrite.o [10]
+  .iar.init_table    const    0x2007'3170    0x14  - Linker created -
+  .rodata            const    0x2007'3184    0x20  GUI_views.o [1]
+  .rodata            const    0x2007'31a4    0x20  GUI_views.o [1]
+  .rodata            const    0x2007'31c4    0x20  GUI_views.o [1]
+  .rodata            const    0x2007'31e4    0x20  GUI_views.o [1]
+  .rodata            const    0x2007'3204    0x20  GUI_views.o [1]
+  .text              ro code  0x2007'3224    0x20  putchar.o [7]
+  .text              ro code  0x2007'3244    0x10  write.o [10]
+  .text              ro code  0x2007'3254    0x1e  dwrite.o [10]
+  .text              ro code  0x2007'3272    0x20  iarwstd.o [10]
+  .rodata            const    0x2007'3294    0x1c  GUI_controls.o [1]
+  .rodata            const    0x2007'32b0    0x1c  GUI_controls.o [1]
+  .rodata            const    0x2007'32cc    0x1c  GUI_views.o [1]
+  .rodata            const    0x2007'32e8    0x1c  GUI_views.o [1]
+  .rodata            const    0x2007'3304    0x1c  GUI_views.o [1]
+  .rodata            const    0x2007'3320    0x18  GUI_views.o [1]
+  .rodata            const    0x2007'3338    0x18  GUI_views.o [1]
+  .rodata            const    0x2007'3350    0x18  GUI_views.o [1]
+  .rodata            const    0x2007'3368    0x18  GUI_views.o [1]
+  .text              ro code  0x2007'3380    0x16  xprout.o [7]
+  .rodata            const    0x2007'3398    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'33ac    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'33c0    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'33d4    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'33e8    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'33fc    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'3410    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'3424    0x14  GUI_views.o [1]
+  .rodata            const    0x2007'3438    0x10  GUI_views.o [1]
+  .rodata            const    0x2007'3448    0x10  GUI_views.o [1]
+  .rodata            const    0x2007'3458    0x10  GUI_views.o [1]
+  .rodata            const    0x2007'3468    0x10  GUI_views.o [1]
+  .rodata            const    0x2007'3478    0x10  GUI_views.o [1]
+  .rodata            const    0x2007'3488    0x10  GUI_views.o [1]
+  .rodata            const    0x2007'3498     0xc  GUI_data.o [1]
+  .rodata            const    0x2007'34a4     0xc  GUI_views.o [1]
+  .rodata            const    0x2007'34b0     0xc  GUI_views.o [1]
+  .rodata            const    0x2007'34bc     0x8  GUI_controls.o [1]
+  .rodata            const    0x2007'34c4     0x8  GUI_controls.o [1]
+  .rodata            const    0x2007'34cc     0x8  GUI_views.o [1]
+  .rodata            const    0x2007'34d4     0x0  copy_init3.o [9]
+  P1-P2 s0                    0x2007'34d4    0x70  <Init block>
+    .data            inited   0x2007'34d4    0x10  keypad.o [2]
+    .data            inited   0x2007'34e4     0xc  keypad.o [2]
+    .data            inited   0x2007'34f0     0x8  XShttio.o [7]
+    .data            inited   0x2007'34f8     0x4  system_sam3x.o [5]
+    .bss             inited   0x2007'34fc     0x4  calender.o [1]
+    .bss             inited   0x2007'3500     0x4  calender.o [1]
+    .bss             inited   0x2007'3504     0x4  calender.o [1]
+    .bss             inited   0x2007'3508     0x4  calender.o [1]
+    .bss             inited   0x2007'350c     0x4  calender.o [1]
+    .bss             inited   0x2007'3510     0x4  calender.o [1]
+    .bss             inited   0x2007'3514     0x4  calender.o [1]
+    .bss             inited   0x2007'3518     0x4  GUI_data.o [1]
+    .bss             inited   0x2007'351c     0x4  GUI_data.o [1]
+    .bss             inited   0x2007'3520     0x4  light_sensor.o [3]
+    .bss             inited   0x2007'3524     0x4  light_sensor.o [3]
+    .bss             inited   0x2007'3528     0x4  main.o [1]
+    .bss             inited   0x2007'352c     0x4  main.o [1]
+    .bss             inited   0x2007'3530     0x4  main.o [1]
+    .bss             inited   0x2007'3534     0x4  main.o [1]
+    .bss             inited   0x2007'3538     0x4  temp_sensor.o [6]
+    .bss             inited   0x2007'353c     0x4  xfail_s.o [7]
+    .bss             inited   0x2007'3540     0x1  calender.o [1]
+    .bss             inited   0x2007'3541     0x1  GUI.o [1]
+  Initializer bytes  const    0x2007'3544    0x70  <for P1-P2 s0>
+                            - 0x2007'35b4  0x34c0
 
 "P1-P2", part 2 of 2:                      0x1000
-  CSTACK                      0x2007'1550  0x1000  <Block>
-    CSTACK           uninit   0x2007'1550  0x1000  <Block tail>
-                            - 0x2007'2550  0x1000
+  CSTACK                      0x2007'35b8  0x1000  <Block>
+    CSTACK           uninit   0x2007'35b8  0x1000  <Block tail>
+                            - 0x2007'45b8  0x1000
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-  0x2007'2550  0x2008'7fff  0x1'5ab0
+  0x2007'35b4  0x2007'35b7       0x4
+  0x2007'45b8  0x2008'7fff  0x1'3a48
 
 
 *******************************************************************************
@@ -181,10 +231,10 @@ Unused ranges:
           Address      Size
           -------      ----
 Copy (__iar_copy_init3)
-    1 source range, total size 0x40 (104% of destination):
-          0x2007'1510  0x40
-    1 destination range, total size 0x3d:
-          0x2007'14d0  0x3d
+    1 source range, total size 0x70 (101% of destination):
+          0x2007'3544  0x70
+    1 destination range, total size 0x6e:
+          0x2007'34d4  0x6e
 
 
 
@@ -192,254 +242,357 @@ Copy (__iar_copy_init3)
 *** MODULE SUMMARY
 ***
 
-    Module           ro code  ro data  rw data
-    ------           -------  -------  -------
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
 command line/config:
-    ------------------------------------------
+    ------------------------------------------------
     Total:
 
 C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj: [1]
-    GPIO_config.o        484
-    GUI.o                170        1        1
-    GUI_controls.o       848       72
-    GUI_views.o          744      604
-    main.o               228       16       16
-    ------------------------------------------
-    Total:             2'474      693       17
+    GPIO_config.o              484
+    GUI.o                      236        1        1
+    GUI_controls.o             848       72
+    GUI_data.o                 454       20        8
+    GUI_views.o                744      628
+    calender.o                 332       29       29
+    main.o                     252       16       16
+    ------------------------------------------------
+    Total:                   3'350      766       54
 
 C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj\keypad_display: [2]
-    LCD.o                532
-    keypad.o             192       28       28
-    lcd_commands.o       132
-    ------------------------------------------
-    Total:               856       28       28
+    LCD.o                      532
+    keypad.o                   192       28       28
+    lcd_commands.o             132
+    ------------------------------------------------
+    Total:                     856       28       28
 
 C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj\light_sensor: [3]
-    light_sensor.o       276        8        8
-    ------------------------------------------
-    Total:               276        8        8
+    light_sensor.o             276        8        8
+    ------------------------------------------------
+    Total:                     276        8        8
 
 C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj\servo: [4]
-    servo.o              100
-    ------------------------------------------
-    Total:               100
+    servo.o                    100
+    ------------------------------------------------
+    Total:                     100
 
 C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj\startup_files: [5]
-    exceptions.o           2
-    startup_sam3x.o       48      244
-    system_sam3x.o       160        4        4
-    ------------------------------------------
-    Total:               210      248        4
+    exceptions.o                 2
+    startup_sam3x.o             48      244
+    system_sam3x.o             160        4        4
+    ------------------------------------------------
+    Total:                     210      248        4
 
 C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj\temp_sensor: [6]
-    temp_sensor.o        296        4        4
-    ------------------------------------------
-    Total:               296        4        4
+    temp_sensor.o              296        4        4
+    ------------------------------------------------
+    Total:                     296        4        4
 
 dl7M_tln.a: [7]
-    exit.o                 4
-    ------------------------------------------
-    Total:                 4
+    XShttio.o                    8        8        8
+    abort.o                      6
+    exit.o                       4
+    printf.o                    40
+    putchar.o                   32
+    xfail_s.o                   64        4        4
+    xprintffull_nomb.o       3'726
+    xprout.o                    22
+    ------------------------------------------------
+    Total:                   3'902       12       12
 
 m7M_tl.a: [8]
-    ------------------------------------------
-    Total:
+    DblAddSub.o                590
+    DblCmpGe.o                  52
+    DblCmpLe.o                  52
+    DblDiv.o                   582
+    DblMul.o                   426
+    DblToS32.o                  54
+    DblToU32.o                  34
+    S32ToDbl.o                  34
+    U32ToDbl.o                  28
+    frexp.o                    112
+    ldexp.o                    314
+    ------------------------------------------------
+    Total:                   2'278
 
 rt7M_tl.a: [9]
-    cexit.o               10
-    cmain.o               30
-    copy_init3.o          42
-    cstartup_M.o          28
-    data_init.o           40
-    ------------------------------------------
-    Total:               150
+    ABImemcpy_unaligned.o      118
+    I64DivMod.o                560
+    I64DivZer.o                  2
+    cexit.o                     10
+    cmain.o                     30
+    copy_init3.o                42
+    cstartup_M.o                28
+    data_init.o                 40
+    memchr.o                    88
+    strchr.o                    22
+    strlen.o                    54
+    ------------------------------------------------
+    Total:                     994
 
 shb_l.a: [10]
-    exit.o                20
-    ------------------------------------------
-    Total:                20
+    dwrite.o                    30
+    exit.o                      20
+    iarttio.o                  124
+    iarwrite.o                  34
+    iarwstd.o                   32
+    write.o                     16
+    ------------------------------------------------
+    Total:                     256
 
-    Gaps                   2
-    Linker created                 23    4'096
-----------------------------------------------
-    Grand Total:       4'388    1'004    4'157
+    Gaps                        26        4
+    Linker created                       22    4'096
+----------------------------------------------------
+    Grand Total:            12'544    1'092    4'206
 
 
 *******************************************************************************
 *** ENTRY LIST
 ***
 
-Entry                       Address  Size  Type      Object
------                       -------  ----  ----      ------
-.iar.init_table$$Base   0x2007'1218         --   Gb  - Linker created -
-.iar.init_table$$Limit  0x2007'122c         --   Gb  - Linker created -
-.intvec$$Base           0x2007'0000         --   Gb  - Linker created -
-.intvec$$Limit          0x2007'00f4         --   Gb  - Linker created -
-?main                   0x2007'11ad        Code  Gb  cmain.o [9]
-ADC_Handler             0x2007'0f11  0x26  Code  Gb  light_sensor.o [3]
-BusFault_Handler        0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-CAN0_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-CAN1_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-CSTACK$$Base            0x2007'1550         --   Gb  - Linker created -
-CSTACK$$Limit           0x2007'2550         --   Gb  - Linker created -
-DACC_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-DMAC_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-DebugMon_Handler        0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-Dummy_Handler           0x2007'11cb   0x2  Code  Gb  exceptions.o [5]
-EFC0_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-EFC1_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base   0x2007'3170          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x2007'3184          --   Gb  - Linker created -
+.intvec$$Base           0x2007'0000          --   Gb  - Linker created -
+.intvec$$Limit          0x2007'00f4          --   Gb  - Linker created -
+?main                   0x2007'30f9         Code  Gb  cmain.o [9]
+ADC_Handler             0x2007'2e45   0x26  Code  Gb  light_sensor.o [3]
+BusFault_Handler        0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+CAN0_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+CAN1_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+CSTACK$$Base            0x2007'35b8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2007'45b8          --   Gb  - Linker created -
+DACC_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+DAYS_COUNTER            0x2007'350c    0x4  Data  Gb  calender.o [1]
+DMAC_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+DebugMon_Handler        0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+Dummy_Handler           0x2007'0fc3    0x2  Code  Gb  exceptions.o [5]
+EFC0_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+EFC1_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
 Global_Rising_Edge_Temp
-                        0x2007'1508   0x4  Data  Gb  temp_sensor.o [6]
-HSMCI_Handler           0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-HardFault_Handler       0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-MODE                    0x2007'150c   0x1  Data  Gb  GUI.o [1]
-MemManage_Handler       0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-NMI_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-NVIC_ClearPendingIRQ    0x2007'0e79  0x14  Code  Lc  light_sensor.o [3]
-NVIC_ClearPendingIRQ    0x2007'0d51  0x14  Code  Lc  temp_sensor.o [6]
-NVIC_EnableIRQ          0x2007'0e65  0x14  Code  Lc  light_sensor.o [3]
-NVIC_EnableIRQ          0x2007'0d3d  0x14  Code  Lc  temp_sensor.o [6]
-NVIC_SetPriority        0x2007'0e8d  0x24  Code  Lc  light_sensor.o [3]
-NVIC_SetPriority        0x2007'0f79  0x24  Code  Lc  main.o [1]
-NVIC_SetPriority        0x2007'0d65  0x24  Code  Lc  temp_sensor.o [6]
-PIOA_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-PIOB_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-PIOC_CODR               0x2007'06e1   0xc  Code  Gb  GPIO_config.o [1]
-PIOC_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-PIOC_ODR                0x2007'06bd   0xc  Code  Gb  GPIO_config.o [1]
-PIOC_OER                0x2007'06c9   0xc  Code  Gb  GPIO_config.o [1]
-PIOC_PER                0x2007'0669   0xc  Code  Gb  GPIO_config.o [1]
-PIOC_PUDR               0x2007'0681   0xc  Code  Gb  GPIO_config.o [1]
-PIOC_SODR               0x2007'06f9   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_CODR               0x2007'06d5   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-PIOD_ODR                0x2007'0699   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_OER                0x2007'06a5   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_PER                0x2007'0675   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_PUDR               0x2007'068d   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_PUER               0x2007'06b1   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_SODR               0x2007'06ed   0xc  Code  Gb  GPIO_config.o [1]
-PIOD_button_config      0x2007'072b  0x18  Code  Gb  GPIO_config.o [1]
-PIOD_led_config         0x2007'0743  0x18  Code  Gb  GPIO_config.o [1]
-PMC_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-PMC_enable              0x2007'065d   0xc  Code  Gb  GPIO_config.o [1]
-PWM_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-PendSV_Handler          0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-RSTC_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-RTC_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-RTT_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-Region$$Table$$Base     0x2007'1218         --   Gb  - Linker created -
-Region$$Table$$Limit    0x2007'122c         --   Gb  - Linker created -
-Reset_Handler           0x2007'1189   0x8  Code  Gb  startup_sam3x.o [5]
-SPI0_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-SSC_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-SUPC_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-SVC_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-SysTick_Config          0x2007'0f9d  0x30  Code  Lc  main.o [1]
-SysTick_Handler         0x2007'1011  0x22  Code  Gb  main.o [1]
-SystemCoreClock         0x2007'14ec   0x4  Data  Gb  system_sam3x.o [5]
-SystemInit              0x2007'105d  0x6e  Code  Gb  system_sam3x.o [5]
-TC0_Handler             0x2007'0dd3  0x1a  Code  Gb  temp_sensor.o [6]
-TC1_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TC2_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TC3_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TC4_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TC5_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TRNG_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TWI0_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-TWI1_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-UART_Handler            0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-UOTGHS_Handler          0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-USART0_Handler          0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-USART1_Handler          0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-USART2_Handler          0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-UsageFault_Handler      0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-WDT_Handler             0x2007'11cb   0x2  Code  Wk  exceptions.o [5]
-__cmain                 0x2007'11ad        Code  Gb  cmain.o [9]
-__exit                  0x2007'1205  0x14  Code  Gb  exit.o [10]
-__iar_copy_init3        0x2007'05af  0x2a  Code  Gb  copy_init3.o [9]
-__iar_data_init3        0x2007'11cd  0x28  Code  Gb  data_init.o [9]
-__iar_program_start     0x2007'1191        Code  Gb  cstartup_M.o [9]
-__low_level_init        0x2007'1161  0x20  Code  Gb  startup_sam3x.o [5]
-__vector_table          0x2007'0000  0xf4  Data  Gb  startup_sam3x.o [5]
-_call_main              0x2007'11b9        Code  Gb  cmain.o [9]
-_exit                   0x2007'11f9        Code  Gb  cexit.o [9]
-button_released         0x2007'04e5  0x20  Code  Gb  keypad.o [2]
-chip74_activate         0x2007'075b  0x18  Code  Gb  GPIO_config.o [1]
-clear_databus           0x2007'0d09   0xa  Code  Gb  LCD.o [2]
-clear_screen            0x2007'0647  0x16  Code  Gb  lcd_commands.o [2]
-cols                    0x2007'14e0   0xc  Data  Gb  keypad.o [2]
-cols_as_input           0x2007'0773  0x18  Code  Gb  GPIO_config.o [1]
-cols_as_output          0x2007'078b  0x18  Code  Gb  GPIO_config.o [1]
-controll_home_page      0x2007'00f5  0x4e  Code  Gb  GUI_controls.o [1]
+                        0x2007'3538    0x4  Data  Gb  temp_sensor.o [6]
+HOURS_COUNTER           0x2007'3508    0x4  Data  Gb  calender.o [1]
+HSMCI_Handler           0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+HardFault_Handler       0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+MILLIESECONDS_COUNTER   0x2007'34fc    0x4  Data  Gb  calender.o [1]
+MINUTES_COUNTER         0x2007'3504    0x4  Data  Gb  calender.o [1]
+MODE                    0x2007'3541    0x1  Data  Gb  GUI.o [1]
+MONTHS_COUNTER          0x2007'3510    0x4  Data  Gb  calender.o [1]
+MemManage_Handler       0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+NMI_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+NVIC_ClearPendingIRQ    0x2007'2dad   0x14  Code  Lc  light_sensor.o [3]
+NVIC_ClearPendingIRQ    0x2007'2c85   0x14  Code  Lc  temp_sensor.o [6]
+NVIC_EnableIRQ          0x2007'2d99   0x14  Code  Lc  light_sensor.o [3]
+NVIC_EnableIRQ          0x2007'2c71   0x14  Code  Lc  temp_sensor.o [6]
+NVIC_SetPriority        0x2007'2dc1   0x24  Code  Lc  light_sensor.o [3]
+NVIC_SetPriority        0x2007'2ead   0x24  Code  Lc  main.o [1]
+NVIC_SetPriority        0x2007'2c99   0x24  Code  Lc  temp_sensor.o [6]
+PIOA_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+PIOB_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+PIOC_CODR               0x2007'22d9    0xc  Code  Gb  GPIO_config.o [1]
+PIOC_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+PIOC_ODR                0x2007'22b5    0xc  Code  Gb  GPIO_config.o [1]
+PIOC_OER                0x2007'22c1    0xc  Code  Gb  GPIO_config.o [1]
+PIOC_PER                0x2007'2261    0xc  Code  Gb  GPIO_config.o [1]
+PIOC_PUDR               0x2007'2279    0xc  Code  Gb  GPIO_config.o [1]
+PIOC_SODR               0x2007'22f1    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_CODR               0x2007'22cd    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+PIOD_ODR                0x2007'2291    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_OER                0x2007'229d    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_PER                0x2007'226d    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_PUDR               0x2007'2285    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_PUER               0x2007'22a9    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_SODR               0x2007'22e5    0xc  Code  Gb  GPIO_config.o [1]
+PIOD_button_config      0x2007'2323   0x18  Code  Gb  GPIO_config.o [1]
+PIOD_led_config         0x2007'233b   0x18  Code  Gb  GPIO_config.o [1]
+PMC_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+PMC_enable              0x2007'2255    0xc  Code  Gb  GPIO_config.o [1]
+PWM_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+PendSV_Handler          0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+RSTC_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+RTC_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+RTT_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+Region$$Table$$Base     0x2007'3170          --   Gb  - Linker created -
+Region$$Table$$Limit    0x2007'3184          --   Gb  - Linker created -
+Reset_Handler           0x2007'30d5    0x8  Code  Gb  startup_sam3x.o [5]
+SECONDS_COUNTER         0x2007'3500    0x4  Data  Gb  calender.o [1]
+SPI0_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+SSC_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+SUPC_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+SVC_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+SysTick_Config          0x2007'2ed1   0x30  Code  Lc  main.o [1]
+SysTick_Handler         0x2007'2f51   0x2a  Code  Gb  main.o [1]
+SystemCoreClock         0x2007'34f8    0x4  Data  Gb  system_sam3x.o [5]
+SystemInit              0x2007'2fa9   0x6e  Code  Gb  system_sam3x.o [5]
+TC0_Handler             0x2007'2d07   0x1a  Code  Gb  temp_sensor.o [6]
+TC1_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TC2_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TC3_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TC4_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TC5_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TICK                    0x2007'3540    0x1  Data  Gb  calender.o [1]
+TRNG_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TWI0_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+TWI1_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+UART_Handler            0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+UOTGHS_Handler          0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+USART0_Handler          0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+USART1_Handler          0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+USART2_Handler          0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+UsageFault_Handler      0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+WDT_Handler             0x2007'0fc3    0x2  Code  Wk  exceptions.o [5]
+YEARS_COUNTER           0x2007'3514    0x4  Data  Gb  calender.o [1]
+_LC                     0x2007'00f5    0x6  Code  Lc  xprintffull_nomb.o [7]
+_LitobFullNoMb          0x2007'0d85  0x114  Code  Lc  xprintffull_nomb.o [7]
+_PrintfFullNoMb         0x2007'00fb  0xc76  Code  Gb  xprintffull_nomb.o [7]
+_Prout                  0x2007'3381   0x16  Code  Gb  xprout.o [7]
+_PutcharsFullNoMb       0x2007'0ef1   0x2e  Code  Lc  xprintffull_nomb.o [7]
+__aeabi_cdcmple         0x2007'117d         Code  Gb  DblCmpLe.o [8]
+__aeabi_cdrcmple        0x2007'11b1         Code  Gb  DblCmpGe.o [8]
+__aeabi_d2iz            0x2007'1321         Code  Gb  DblToS32.o [8]
+__aeabi_d2uiz           0x2007'1815         Code  Gb  DblToU32.o [8]
+__aeabi_ddiv            0x2007'15cd         Code  Gb  DblDiv.o [8]
+__aeabi_dmul            0x2007'1855         Code  Gb  DblMul.o [8]
+__aeabi_dsub            0x2007'14e9         Code  Gb  DblAddSub.o [8]
+__aeabi_i2d             0x2007'1359         Code  Gb  S32ToDbl.o [8]
+__aeabi_ldiv0           0x2007'1c39         Code  Gb  I64DivZer.o [9]
+__aeabi_ui2d            0x2007'1839         Code  Gb  U32ToDbl.o [8]
+__aeabi_uldivmod        0x2007'1a01         Code  Gb  I64DivMod.o [9]
+__cmain                 0x2007'30f9         Code  Gb  cmain.o [9]
+__dwrite                0x2007'3255   0x1e  Code  Gb  dwrite.o [10]
+__exit                  0x2007'1c3d   0x14  Code  Gb  exit.o [10]
+__iar_Fail_s            0x2007'0fc5   0x1c  Code  Gb  xfail_s.o [7]
+__iar_Memchr            0x2007'103d         Code  Gb  memchr.o [9]
+__iar_Strchr            0x2007'0fad         Code  Gb  strchr.o [9]
+__iar_close_ttio        0x2007'1c51   0x2c  Code  Gb  iarttio.o [10]
+__iar_copy_init3        0x2007'0f83   0x2a  Code  Gb  copy_init3.o [9]
+__iar_data_init3        0x2007'3119   0x28  Code  Gb  data_init.o [9]
+__iar_frexp             0x2007'1119         Code  Gb  frexp.o [8]
+__iar_frexp64           0x2007'110d         Code  Gb  frexp.o [8]
+__iar_frexpl            0x2007'1119         Code  Gb  frexp.o [8]
+__iar_get_ttio          0x2007'1c7d   0x4c  Code  Gb  iarttio.o [10]
+__iar_ldexp64           0x2007'11e5         Code  Gb  ldexp.o [8]
+__iar_lookup_ttioh      0x2007'1ccd    0x8  Code  Gb  XShttio.o [7]
+__iar_program_start     0x2007'30dd         Code  Gb  cstartup_M.o [9]
+__iar_scalbln64         0x2007'11e5         Code  Gb  ldexp.o [8]
+__iar_scalbn64          0x2007'11e5         Code  Gb  ldexp.o [8]
+__iar_sh_stdout         0x2007'3273   0x20  Code  Gb  iarwstd.o [10]
+__iar_sh_write          0x2007'314f   0x22  Code  Gb  iarwrite.o [10]
+__iar_ttio_handles      0x2007'34f0    0x8  Data  Lc  XShttio.o [7]
+__iar_unaligned_memcpy  0x2007'1095         Code  Gb  ABImemcpy_unaligned.o [9]
+__iar_unaligned_memcpy4
+                        0x2007'10b5         Code  Gb  ABImemcpy_unaligned.o [9]
+__iar_unaligned_memcpy8
+                        0x2007'10b5         Code  Gb  ABImemcpy_unaligned.o [9]
+__low_level_init        0x2007'30ad   0x20  Code  Gb  startup_sam3x.o [5]
+__vector_table          0x2007'0000   0xf4  Data  Gb  startup_sam3x.o [5]
+__write                 0x2007'3245   0x10  Code  Gb  write.o [10]
+_call_main              0x2007'3105         Code  Gb  cmain.o [9]
+_exit                   0x2007'3145         Code  Gb  cexit.o [9]
+abort                   0x2007'1c31    0x6  Code  Gb  abort.o [7]
+button_released         0x2007'20c5   0x20  Code  Gb  keypad.o [2]
+chip74_activate         0x2007'2353   0x18  Code  Gb  GPIO_config.o [1]
+clear_databus           0x2007'2ac9    0xa  Code  Gb  LCD.o [2]
+clear_screen            0x2007'223f   0x16  Code  Gb  lcd_commands.o [2]
+cols                    0x2007'34e4    0xc  Data  Gb  keypad.o [2]
+cols_as_input           0x2007'236b   0x18  Code  Gb  GPIO_config.o [1]
+cols_as_output          0x2007'2383   0x18  Code  Gb  GPIO_config.o [1]
+controll_home_page      0x2007'1cd5   0x4e  Code  Gb  GUI_controls.o [1]
 controll_page_1_current_day
-                        0x2007'0143  0x34  Code  Gb  GUI_controls.o [1]
+                        0x2007'1d23   0x34  Code  Gb  GUI_controls.o [1]
 controll_page_2_datatable
-                        0x2007'0177  0x34  Code  Gb  GUI_controls.o [1]
+                        0x2007'1d57   0x34  Code  Gb  GUI_controls.o [1]
 controll_page_3_options
-                        0x2007'01ab  0x5c  Code  Gb  GUI_controls.o [1]
-data_bus                0x2007'0cff   0xa  Code  Gb  LCD.o [2]
-delay                   0x2007'0b51   0xe  Code  Gb  LCD.o [2]
-edit_clock              0x2007'038f  0x78  Code  Gb  GUI_controls.o [1]
-edit_date               0x2007'02ef  0xa0  Code  Gb  GUI_controls.o [1]
-edit_temprature_higher  0x2007'027b  0x74  Code  Gb  GUI_controls.o [1]
-edit_temprature_lower   0x2007'0207  0x74  Code  Gb  GUI_controls.o [1]
-enable_NVIC_TC          0x2007'0e0d  0x18  Code  Gb  temp_sensor.o [6]
+                        0x2007'1d8b   0x5c  Code  Gb  GUI_controls.o [1]
+data_bus                0x2007'2abf    0xa  Code  Gb  LCD.o [2]
+date_current_day        0x2007'2721   0x4a  Code  Gb  GUI_data.o [1]
+date_now                0x2007'351c    0x4  Data  Gb  GUI_data.o [1]
+delay                   0x2007'2911    0xe  Code  Gb  LCD.o [2]
+edit_clock              0x2007'1f6f   0x78  Code  Gb  GUI_controls.o [1]
+edit_date               0x2007'1ecf   0xa0  Code  Gb  GUI_controls.o [1]
+edit_temprature_higher  0x2007'1e5b   0x74  Code  Gb  GUI_controls.o [1]
+edit_temprature_lower   0x2007'1de7   0x74  Code  Gb  GUI_controls.o [1]
+enable_NVIC_TC          0x2007'2d41   0x18  Code  Gb  temp_sensor.o [6]
 enable_NVIC_light_sensor
-                        0x2007'0ef9  0x18  Code  Gb  light_sensor.o [3]
-exit                    0x2007'11f5   0x4  Code  Gb  exit.o [7]
-exit_back               0x2007'0417  0x1a  Code  Gb  GUI_controls.o [1]
-flag_pins_LCD           0x2007'07d9  0x12  Code  Gb  GPIO_config.o [1]
-go_home                 0x2007'0407  0x10  Code  Gb  GUI_controls.o [1]
-home_view               0x2007'0841  0x7e  Code  Gb  GUI_views.o [1]
-init_display            0x2007'0c83  0x68  Code  Gb  LCD.o [2]
-init_gui                0x2007'0505  0x14  Code  Gb  GUI.o [1]
-init_light_sensors      0x2007'0eb1  0x48  Code  Gb  light_sensor.o [3]
-init_reset_button       0x2007'0b3b  0x16  Code  Gb  LCD.o [2]
-init_serv               0x2007'10fd  0x42  Code  Gb  servo.o [4]
-init_temp_sensor        0x2007'0d89  0x4a  Code  Gb  temp_sensor.o [6]
-initialize_pins         0x2007'0445  0x28  Code  Gb  keypad.o [2]
-initialize_pins_LCD     0x2007'0b29  0x12  Code  Gb  LCD.o [2]
+                        0x2007'2e2d   0x18  Code  Gb  light_sensor.o [3]
+exit                    0x2007'3141    0x4  Code  Gb  exit.o [7]
+exit_back               0x2007'1ff7   0x1a  Code  Gb  GUI_controls.o [1]
+flag_pins_LCD           0x2007'23d1   0x12  Code  Gb  GPIO_config.o [1]
+frexp                   0x2007'110d         Code  Gb  frexp.o [8]
+frexpl                  0x2007'110d         Code  Gb  frexp.o [8]
+get_date                0x2007'2b51   0x20  Code  Gb  calender.o [1]
+get_time                0x2007'2b31   0x20  Code  Gb  calender.o [1]
+go_home                 0x2007'1fe7   0x10  Code  Gb  GUI_controls.o [1]
+home_view               0x2007'2439   0x7e  Code  Gb  GUI_views.o [1]
+init_calander           0x2007'2afd   0x34  Code  Gb  calender.o [1]
+init_display            0x2007'2a43   0x68  Code  Gb  LCD.o [2]
+init_gui                0x2007'20e5   0x14  Code  Gb  GUI.o [1]
+init_light_sensors      0x2007'2de5   0x48  Code  Gb  light_sensor.o [3]
+init_reset_button       0x2007'28fb   0x16  Code  Gb  LCD.o [2]
+init_serv               0x2007'3049   0x42  Code  Gb  servo.o [4]
+init_temp_sensor        0x2007'2cbd   0x4a  Code  Gb  temp_sensor.o [6]
+initialize_pins         0x2007'2025   0x28  Code  Gb  keypad.o [2]
+initialize_pins_LCD     0x2007'28e9   0x12  Code  Gb  LCD.o [2]
 initializing_peripherals
-                        0x2007'0ff5  0x1c  Code  Gb  main.o [1]
-is_EOC1_ready           0x2007'14f0   0x4  Data  Gb  light_sensor.o [3]
-is_EOC2_ready           0x2007'14f4   0x4  Data  Gb  light_sensor.o [3]
-is_display_ok           0x2007'0b5f  0x14  Code  Gb  LCD.o [2]
-key_listner             0x2007'0587  0x28  Code  Gb  GUI.o [1]
-keypad_cols_config      0x2007'0719  0x12  Code  Gb  GPIO_config.o [1]
-keypad_rows_config      0x2007'0705  0x14  Code  Gb  GPIO_config.o [1]
-main                    0x2007'0fcd  0x28  Code  Gb  main.o [1]
-make_databus_as_input   0x2007'0ceb   0xa  Code  Gb  LCD.o [2]
-make_databus_as_output  0x2007'0cf5   0xa  Code  Gb  LCD.o [2]
-page1_view              0x2007'08bf  0x94  Code  Gb  GUI_views.o [1]
-page2_view              0x2007'0953  0x6a  Code  Gb  GUI_views.o [1]
-page3_view              0x2007'09bd  0xfa  Code  Gb  GUI_views.o [1]
-pressed_key             0x2007'046d  0x70  Code  Gb  keypad.o [2]
-print_char              0x2007'061f  0x10  Code  Gb  lcd_commands.o [2]
+                        0x2007'2f35   0x1c  Code  Gb  main.o [1]
+is_EOC1_ready           0x2007'3520    0x4  Data  Gb  light_sensor.o [3]
+is_EOC2_ready           0x2007'3524    0x4  Data  Gb  light_sensor.o [3]
+is_display_ok           0x2007'291f   0x14  Code  Gb  LCD.o [2]
+key_listner             0x2007'216f   0x5e  Code  Gb  GUI.o [1]
+keypad_cols_config      0x2007'2311   0x12  Code  Gb  GPIO_config.o [1]
+keypad_rows_config      0x2007'22fd   0x14  Code  Gb  GPIO_config.o [1]
+ldexp                   0x2007'11e5         Code  Gb  ldexp.o [8]
+ldexpl                  0x2007'11e5         Code  Gb  ldexp.o [8]
+main                    0x2007'2f01   0x34  Code  Gb  main.o [1]
+make_databus_as_input   0x2007'2aab    0xa  Code  Gb  LCD.o [2]
+make_databus_as_output  0x2007'2ab5    0xa  Code  Gb  LCD.o [2]
+memchr                  0x2007'103d         Code  Gb  memchr.o [9]
+page1_view              0x2007'24b7   0x94  Code  Gb  GUI_views.o [1]
+page2_view              0x2007'254b   0x6a  Code  Gb  GUI_views.o [1]
+page3_view              0x2007'25b5   0xf8  Code  Gb  GUI_views.o [1]
+pressed_key             0x2007'204d   0x70  Code  Gb  keypad.o [2]
+print_char              0x2007'2217   0x10  Code  Gb  lcd_commands.o [2]
 print_char_increment_ADP
-                        0x2007'060f  0x10  Code  Gb  lcd_commands.o [2]
-print_word              0x2007'062f  0x18  Code  Gb  lcd_commands.o [2]
-read_row                0x2007'07bb  0x1e  Code  Gb  GPIO_config.o [1]
-read_status_display     0x2007'0b73  0x4e  Code  Gb  LCD.o [2]
-reset_puls              0x2007'0ded  0x20  Code  Gb  temp_sensor.o [6]
+                        0x2007'2207   0x10  Code  Gb  lcd_commands.o [2]
+print_date              0x2007'277d   0xd6  Code  Gb  GUI_data.o [1]
+print_time              0x2007'2853   0x94  Code  Gb  GUI_data.o [1]
+print_word              0x2007'2227   0x18  Code  Gb  lcd_commands.o [2]
+printf                  0x2007'2c49   0x28  Code  Gb  printf.o [7]
+putchar                 0x2007'3225   0x20  Code  Gb  putchar.o [7]
+read_row                0x2007'23b3   0x1e  Code  Gb  GPIO_config.o [1]
+read_status_display     0x2007'2933   0x4e  Code  Gb  LCD.o [2]
+reset_puls              0x2007'2d21   0x20  Code  Gb  temp_sensor.o [6]
 rest_pins_not_enabled_with_keypad
-                        0x2007'0829  0x18  Code  Gb  GPIO_config.o [1]
-rows                    0x2007'14d0  0x10  Data  Gb  keypad.o [2]
-run_command_op1         0x2007'05f9  0x16  Code  Gb  lcd_commands.o [2]
-run_command_op2         0x2007'05d9  0x20  Code  Gb  lcd_commands.o [2]
-set_address_pointer     0x2007'0519  0x34  Code  Gb  GUI.o [1]
-set_cols                0x2007'07a3  0x18  Code  Gb  GPIO_config.o [1]
-set_command_to_databus  0x2007'0d13   0xa  Code  Gb  LCD.o [2]
-set_curser_pointer      0x2007'054d  0x24  Code  Gb  GUI.o [1]
-set_data_to_databus     0x2007'0d1d   0xa  Code  Gb  LCD.o [2]
-set_text_home_address   0x2007'0571  0x16  Code  Gb  GUI.o [1]
-systick_counter         0x2007'14f8   0x4  Data  Gb  main.o [1]
-systick_counter_light   0x2007'1500   0x4  Data  Gb  main.o [1]
-systick_counter_servo   0x2007'1504   0x4  Data  Gb  main.o [1]
-systick_counter_temp    0x2007'14fc   0x4  Data  Gb  main.o [1]
+                        0x2007'2421   0x18  Code  Gb  GPIO_config.o [1]
+rows                    0x2007'34d4   0x10  Data  Gb  keypad.o [2]
+run_command_op1         0x2007'21f1   0x16  Code  Gb  lcd_commands.o [2]
+run_command_op2         0x2007'21d1   0x20  Code  Gb  lcd_commands.o [2]
+run_gui                 0x2007'20f9    0x8  Code  Gb  GUI.o [1]
+scalbln                 0x2007'11e5         Code  Gb  ldexp.o [8]
+scalblnl                0x2007'11e5         Code  Gb  ldexp.o [8]
+scalbn                  0x2007'11e5         Code  Gb  ldexp.o [8]
+scalbnl                 0x2007'11e5         Code  Gb  ldexp.o [8]
+scale                   0x2007'0e99   0x46  Code  Lc  xprintffull_nomb.o [7]
+sec_hand                0x2007'353c    0x4  Data  Lc  xfail_s.o [7]
+set_address_pointer     0x2007'2101   0x34  Code  Gb  GUI.o [1]
+set_cols                0x2007'239b   0x18  Code  Gb  GPIO_config.o [1]
+set_command_to_databus  0x2007'2ad3    0xa  Code  Gb  LCD.o [2]
+set_curser_pointer      0x2007'2135   0x24  Code  Gb  GUI.o [1]
+set_data_to_databus     0x2007'2add    0xa  Code  Gb  LCD.o [2]
+set_text_home_address   0x2007'2159   0x16  Code  Gb  GUI.o [1]
+strchr                  0x2007'0fad         Code  Gb  strchr.o [9]
+strlen                  0x2007'1005         Code  Gb  strlen.o [9]
+systick_counter         0x2007'3528    0x4  Data  Gb  main.o [1]
+systick_counter_light   0x2007'3530    0x4  Data  Gb  main.o [1]
+systick_counter_servo   0x2007'3534    0x4  Data  Gb  main.o [1]
+systick_counter_temp    0x2007'352c    0x4  Data  Gb  main.o [1]
+time_now                0x2007'3518    0x4  Data  Gb  GUI_data.o [1]
+update_counters         0x2007'2b71   0xb4  Code  Gb  calender.o [1]
 write_command_2_display
-                        0x2007'0bc1  0x5e  Code  Gb  LCD.o [2]
-write_data_2_display    0x2007'0c1f  0x64  Code  Gb  LCD.o [2]
+                        0x2007'2981   0x5e  Code  Gb  LCD.o [2]
+write_data_2_display    0x2007'29df   0x64  Code  Gb  LCD.o [2]
 
 
 [1] = C:\Users\abdal\OneDrive - Högskolan i Halmstad\School\year 2\ht\period 2\CS1\Project\MAIN GUI\Debug\Obj
@@ -453,9 +606,9 @@ write_data_2_display    0x2007'0c1f  0x64  Code  Gb  LCD.o [2]
 [9] = rt7M_tl.a
 [10] = shb_l.a
 
-  4'388 bytes of readonly  code memory
-  1'004 bytes of readonly  data memory
-  4'157 bytes of readwrite data memory
+  12'544 bytes of readonly  code memory
+   1'092 bytes of readonly  data memory
+   4'206 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

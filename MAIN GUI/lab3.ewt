@@ -2912,6 +2912,12 @@
         </file>
     </group>
     <file>
+        <name>$PROJ_DIR$\calendar.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\calender.c</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\commands_data_lcd.h</name>
     </file>
     <file>
@@ -2934,6 +2940,12 @@
     </file>
     <file>
         <name>$PROJ_DIR$\GUI\GUI_controls.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\GUI\GUI_data.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\GUI\GUI_data.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\GUI\GUI_views.c</name>

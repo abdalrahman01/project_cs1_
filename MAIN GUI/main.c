@@ -30,14 +30,17 @@ int main()
   SystemInit();
   initializing_peripherals();
 
-  SysTick_Config(SystemCoreClock / 1000);
   
   init_gui();
+  init_calander();
   
+  SysTick_Config(SystemCoreClock / 1000);
   while (1)
   {
     
+    update_counters();
     key_listner(pressed_key());
+    run_gui();
     // run_peripherals();
   }
 
