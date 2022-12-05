@@ -66,11 +66,11 @@ void set_date(unsigned char day, unsigned char month, unsigned short year)
     MONTHS_COUNTER = month;
     YEARS_COUNTER = year;
 }
-void set_time(unsigned char secs, unsigned char month, unsigned char yr)
+void set_time(unsigned char hours, unsigned char minutes, unsigned char secs)
 {
     SECONDS_COUNTER = secs;
-    MONTHS_COUNTER = month;
-    YEARS_COUNTER = yr;
+    MINUTES_COUNTER = minutes;
+    HOURS_COUNTER = hours;
 }
 
 void update_counters()

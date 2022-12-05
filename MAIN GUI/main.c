@@ -31,8 +31,8 @@ int main()
   initializing_peripherals();
 
   
-  init_gui();
   init_calander();
+  init_gui();
   
   SysTick_Config(SystemCoreClock / 1000);
   while (1)

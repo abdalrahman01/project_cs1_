@@ -6,6 +6,7 @@
         "keypad.h": "c",
         "calendar.h": "c",
         "gui_views.h": "c",
-        "gui_data.h": "c"
+        "gui_data.h": "c",
+        "gui.h": "c"
     }
 }
