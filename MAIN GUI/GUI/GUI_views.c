@@ -3,6 +3,13 @@
 #include "GUI.h"
 #include "../lcd_commands.h"
 
+
+/*
+
+*   only design.
+
+*/
+
 void command_window(short local_address);
 
 

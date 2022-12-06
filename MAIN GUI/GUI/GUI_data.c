@@ -1,10 +1,21 @@
-#include "../calendar.h"
+#include "../LinkedLists.h"
 #include "GUI_constants.h"
 #include "../lcd_commands.h"
 #include "GUI.h"
+#include "../temp_sensor.h"
+#include "stdlib.h"
 
 void print_date(struct date d, unsigned short dispaly, unsigned char x, unsigned char y);
 void print_time(struct time t, unsigned short dispaly, unsigned char x, unsigned char y);
+char days = 0;
+double min[7];
+double max[7];
+double avg[7];
+unsigned short measurments_counter = 0;
+double total_temp = 0;
+int *ptrDates[7];
+int *ptrTimesstamps_min[7];
+int *ptrTimesstamps_max[7];
 
 void date_current_day()
 {
@@ -74,7 +85,6 @@ void print_date(struct date d, unsigned short dispaly, unsigned char x, unsigned
     d.year /= 10;
     word[6] = d.year % 10 + '0';
 
-
     print_word(word, 10);
 }
 
@@ -93,4 +103,87 @@ void print_time(struct time t, unsigned short dispaly, unsigned char x, unsigned
     word[7] = t.seconds % 10 + '0';
 
     print_word(word, 8);
+}
+struct LinkedList *linkedList;
+void datatable_measurments()
+{
+
+    // if the days flag is set
+    if ((TICK & (1 << 2)) == (1 << 2))
+    {
+        start_measuring();
+        days++;
+        if(days){
+            measurments_counter = 0; 
+            clear_list(linkedList);
+        }
+    }
+
+    if (measurments_counter == 0)
+    {
+        if ((TICK & (1)) != (1))
+            if (is_measurment_ready())
+            {
+                struct date today = get_date();
+                struct time now = get_time();
+
+                ptrDates[days] = &today;
+                ptrTimesstamps_max[days] = &now;
+                ptrTimesstamps_min[days] = &now;
+
+                linkedList = createElement(now, ptrDates[days], measurment());
+                if (linkedList != NULL)
+                {
+                    measurments_counter++;
+                }
+            }
+    }
+    else
+        day_measurments();
+
+}
+
+// create a linked list.
+
+// get the date ((ONCE!! for each day))
+void day_measurments()
+{
+    double temprature = 0;
+    // if the minutes flag is set
+    if ((TICK & (1)) != (1))
+    {
+        if (is_measurment_ready())
+        {
+            temprature = measurment();
+        }
+    }
+    else
+    {
+        start_measuring();
+    }
+
+    if (temprature == 0)
+        return;
+    struct time timestamp = get_time();
+
+    if (min[days] > temprature)
+    {
+        min[days] = temprature;
+        // store get_time in ptrTimeStamps_min[days]
+        ptrTimesstamps_min[days] = &timestamp;
+    }
+    else if (max[days] < temprature)
+    {
+        max[days] = temprature;
+        ptrTimesstamps_max[days] = &timestamp;
+    }
+    total_temp += temprature;
+    measurments_counter++;
+    avg[days] = total_temp / measurments_counter;
+
+    struct LinkedList *newRecord = createElement(timestamp, (struct date *)ptrDates[days], temprature);
+    if (newRecord == NULL)
+    {
+        removeLast(&linkedList);
+    }
 }

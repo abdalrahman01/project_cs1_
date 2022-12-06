@@ -9,6 +9,10 @@ int rows[4] = {2, 3, 4, 5};
 
 extern int Global_Key_Pressed = 0;
 
+
+/// <summary>
+/// Initialize the keypad
+/// </summary>
 void initialize_pins()
 {
 
@@ -19,13 +23,19 @@ void initialize_pins()
     PMC_enable(PIDPIOC);
     PMC_enable(PIDPIOD);
 
+    // enable the different pins.
     keypad_cols_config();
     keypad_rows_config();
-    PIOD_button_config(BUTTON);
-    PIOD_led_config(LED);
+    /*PIOD_button_config(BUTTON);
+    PIOD_led_config(LED);*/
     chip74_activate();
 }
 
+
+/// <summary>
+/// reads the current pressed key on keypad, if return value = 0, no key pressed
+/// </summary>
+/// <returns>the value of kay from 0-12</returns>
 int pressed_key()
 {
     int value = 0;
@@ -67,6 +77,12 @@ void update_key()
     ;
 }
 
+
+
+/// <summary>
+/// returns the value from the keypad after releasing the specific key (button)
+/// </summary>
+/// <returns>the value of the key from 1 - 12</returns>
 int button_released()
 {
 

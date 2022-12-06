@@ -17,6 +17,9 @@ void set_command_to_databus(unsigned char command);
 void init_reset_button();
 void set_data_to_databus(unsigned char data);
 
+/// <summary>
+/// Enable the different digital pins used by the buss and the lcd.
+/// </summary>
 void initialize_pins_LCD()
 {   
 
@@ -26,6 +29,9 @@ void initialize_pins_LCD()
     init_reset_button();
 }
 
+/// <summary>
+/// the reset pin the lcd
+/// </summary>
 void init_reset_button()
 {
     PIOD_PER(0);
@@ -39,6 +45,12 @@ void delay(int value)
         asm("nop");
 }
 
+
+/// <summary>
+/// to intereprate the status word of the display
+/// </summary>
+/// <param name="status_word">the status word from the lcd</param>
+/// <returns>1 if lcd is ready for taking commands, 0 otherwise</returns>
 unsigned char is_display_ok(unsigned char status_word)
 {
     // dataseet p.13
@@ -50,7 +62,12 @@ unsigned char is_display_ok(unsigned char status_word)
     return 1;
 }
 
-unsigned char read_status_display(void)
+
+/// <summary>
+/// Reads the status of the display
+/// </summary>
+/// <returns>the status word</returns>
+unsigned char read_status_display()
 {
 
     unsigned char temp;
@@ -81,6 +98,10 @@ unsigned char read_status_display(void)
     return temp;
 }
 
+/// <summary>
+/// Sends the commands to the display
+/// </summary>
+/// <param name="command"> a 1 byte commands, from the datasheet for the diplay</param>
 void write_command_2_display(unsigned char command)
 {
 
@@ -116,6 +137,11 @@ void write_command_2_display(unsigned char command)
     make_databus_as_input();
 }
 
+
+/// <summary>
+/// Sends the data to the display
+/// </summary>
+/// <param name="command"> 1 byte of data</param>
 void write_data_2_display(unsigned char data)
 {
 
@@ -151,7 +177,11 @@ void write_data_2_display(unsigned char data)
     make_databus_as_input();
 }
 
-void init_display(void)
+
+/// <summary>
+/// Initialize the Display
+/// </summary>
+void init_display()
 {
 
     PIOD_CODR(RESET); // clear reset display
@@ -187,38 +217,63 @@ void init_display(void)
 
 }
 
-
+/// <summary>
+/// Change the direction of the databuss. from the lcd display to the SAM3x chip
+/// </summary>
 void make_databus_as_input()
 {
     *AT91C_PIOC_ODR = DATABUS;
 }
+
+
+/// <summary>
+/// Change the direction of the databuss. from the SAM3x chip to the lcd display
+/// </summary>
 void make_databus_as_output()
 {
     *AT91C_PIOC_OER = DATABUS;
 }
 
+
+/// <summary>
+/// reads the value from databuss.DB0 to DB7
+/// </summary>
+/// <returns>a 1 byte of data</returns>
 unsigned char data_bus()
 {
     return ((*AT91C_PIOC_PDSR & DATABUS) >> 2); // *AT91C_PIOC_PDSR & DATABUS = 00xx xxxx xx00;
 }
 
+
+/// <summary>
+/// Sends a clear signal to DB0 - DB7
+/// </summary>
 void clear_databus()
 {
 
     *AT91C_PIOC_CODR = (DATABUS);
 }
 
-void set_command_to_databus(unsigned char command)
-{
-
-    *AT91C_PIOC_SODR = (command << 2);
-}
+/// <summary>
+/// Send a 1 byte of data to DB0 - DB7
+/// </summary>
+/// <param name="data">1 byte of data</param>
 void set_data_to_databus(unsigned char data)
 {
 
     *AT91C_PIOC_SODR = (data << 2);
 }
 
+void set_command_to_databus(unsigned char command)
+{
+
+    set_data_to_databus(command);
+}
+
+
+/// <summary>
+///  Do not use!! Bad!!
+/// </summary>
 void from_keypad_to_display()
 {
     int key = pressed_key();
